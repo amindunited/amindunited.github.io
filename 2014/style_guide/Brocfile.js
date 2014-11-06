@@ -21,7 +21,7 @@ var vendorFiles = [
     "bower_components/ace-builds/src/ace.js",
     "bower_components/mousetrap/mousetrap.js"*/
 
-    "bower_components/customSelect/jquery.customSelect.js",
+    //"bower_components/customSelect/jquery.customSelect.js",
     "bower_components/iCheck/icheck.min.js",
     "bower_components/jscrollpane/script/mwheelintent.js",
     "bower_components/jscrollpane/script/jquery.mousewheel.js",

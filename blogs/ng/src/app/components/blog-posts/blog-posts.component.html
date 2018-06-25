@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="card">
+    <h2>Blog Posts</h2>
+  </div>
+  <div *ngIf="(posts$ | async)?.posts as posts; else loading">
+
+    <div *ngFor='let post of posts' class="card">
+      <h3>{{post.title}}</h3>
+      <p>{{post.summary}}</p>
+    </div>
+
+  </div>
+
+  <ng-template #loading>
+    Loading stuff...
+  </ng-template>
+</div>

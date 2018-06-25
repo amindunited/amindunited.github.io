@@ -1,0 +1,25 @@
+@keyframes placeholderShimmer {
+  0% {
+      background-position: -468px 0
+  }
+
+  100% {
+      background-position: 468px 0
+  }
+}
+
+@mixin loading-placeholder($primaryColour:#f3f4f5, $secondaryColour:#eaeced) {
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: placeholderShimmer;
+  animation-timing-function: linear;
+  background: $primaryColour;
+  background: linear-gradient(to right, $primaryColour 8%, $secondaryColour 18%, $primaryColour 33%);
+  background-size: 800px 100px;
+  position: relative;
+
+  width: 100px;
+  height: 16px;
+  border-radius: 18px;
+}

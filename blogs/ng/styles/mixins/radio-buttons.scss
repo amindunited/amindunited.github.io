@@ -1,0 +1,59 @@
+@import '../../styles/variables/base.scss';
+@import '../../styles/variables/colours.scss';
+
+@mixin radio-button {
+  label {
+    display: inline-block;
+    padding-left: $base_measure * 3;
+    margin-bottom: $base_measure * 2;
+    position: relative;
+    user-select: none;
+    cursor: pointer;
+    line-height: 16px;
+  }
+
+  input[type="radio"] + label:before {
+    box-sizing: inherit;
+    border: 1px solid #292f33;
+    border-radius: 50%;
+    content: '';
+    left: 0;
+    top: 0;
+
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    height: $base_measure * 2;
+    width: $base_measure * 2;
+  }
+
+  input[type="radio"]:checked + label:after {
+    box-sizing: inherit;
+    width: $base_measure;
+    height: $base_measure;
+    background: $AP_P_Dark;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    content: '';
+    top: 4px;
+    left: 4px;
+    position: absolute;
+  }
+
+  input[type="radio"]:checked + label {
+    font-weight: bold;
+  }
+
+  input[type="radio"] {
+    height: 1px;
+    left: -10000px;
+    position: absolute;
+    visibility: visible;
+    width: 1px;
+  }
+
+  input[type="radio"]:focus + label {
+    outline: thin dotted #1064A3;
+    outline-offset: 4px;
+  }
+}

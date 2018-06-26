@@ -12,12 +12,6 @@ export class BlogPostsComponent implements OnInit {
 
   constructor(blogPostsService: BlogPostsService) {
     this.posts$ = blogPostsService.getPosts();
-
-    // .subscribe((data) => {
-    //     this.posts = { ...data.posts };
-    //     console.log('go posts', this.posts);
-    //     // return data.posts;
-    //   });
   }
 
   ngOnInit() {

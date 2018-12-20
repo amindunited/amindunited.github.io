@@ -1,0 +1,24 @@
+{
+  "name": "amindunited.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "node build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amindunited/amindunited.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amindunited/amindunited.github.io/issues"
+  },
+  "homepage": "https://github.com/amindunited/amindunited.github.io#readme",
+  "devDependencies": {
+    "node-fetch": "^2.3.0"
+  }
+}

@@ -1,0 +1,29 @@
+.grail {
+  display: flex;
+  flex-flow: row wrap;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+}
+
+.grail > * {
+  flex: 1 auto;
+}
+
+.grail > .top {
+  flex: 1 100%;
+  height: var(--grail-top-height);
+}
+
+.grail > .bottom {
+  flex: 1 100%;
+  height: var(--grail-bottom-height);
+}
+
+.grail .main {
+  flex: var(--grail-main-grow) 0px;
+}
+
+.grail .main, .grail .left, .grail .right {
+  height: calc(100% - (var(--grail-top-height) + var(--grail-bottom-height)));
+}

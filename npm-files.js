@@ -3,14 +3,14 @@ const amuNPMModules = [
     "package": {
       "name": "@amindunited/utils",
       "scope": "amindunited",
-      "version": "0.0.12",
+      "version": "0.0.13",
       "description": "A collection of javascript utility functions",
       "keywords": [
         "Utility",
         "Javascript",
         "utils"
       ],
-      "date": "2018-12-20T00:57:01.466Z",
+      "date": "2019-01-07T03:47:51.736Z",
       "links": {
         "npm": "https://www.npmjs.com/package/%40amindunited%2Futils",
         "homepage": "https://github.com/amindunited/utils#readme",
@@ -35,61 +35,14 @@ const amuNPMModules = [
       "unstable": true
     },
     "score": {
-      "final": 0.5642864087513508,
+      "final": 0.5716827496147887,
       "detail": {
-        "quality": 0.688807379869939,
-        "popularity": 0.025930075764243613,
-        "maintenance": 0.9959104807796682
+        "quality": 0.6888917295077475,
+        "popularity": 0.04706636336362016,
+        "maintenance": 0.9958342959577071
       }
     },
-    "searchScore": 0.00014261626
-  },
-  {
-    "package": {
-      "name": "@amindunited/read-dir",
-      "scope": "amindunited",
-      "version": "0.0.0",
-      "description": "Read the contents of a Directory",
-      "keywords": [
-        "Read",
-        "Directory",
-        "dir",
-        "ls",
-        "promise"
-      ],
-      "date": "2018-11-10T08:38:45.297Z",
-      "links": {
-        "npm": "https://www.npmjs.com/package/%40amindunited%2Fread-dir",
-        "homepage": "https://github.com/amindunited/read-dir#readme",
-        "repository": "https://github.com/amindunited/read-dir",
-        "bugs": "https://github.com/amindunited/read-dir/issues"
-      },
-      "author": {
-        "name": "amindunited"
-      },
-      "publisher": {
-        "username": "amindunited",
-        "email": "buckley.robin@gmail.com"
-      },
-      "maintainers": [
-        {
-          "username": "amindunited",
-          "email": "buckley.robin@gmail.com"
-        }
-      ]
-    },
-    "flags": {
-      "unstable": true
-    },
-    "score": {
-      "final": 0.5426781480437441,
-      "detail": {
-        "quality": 0.6867989271442235,
-        "popularity": 0.0398808815167568,
-        "maintenance": 0.9219433181988921
-      }
-    },
-    "searchScore": 0.00006887574
+    "searchScore": 0.00019067955
   },
   {
     "package": {
@@ -131,384 +84,14 @@ const amuNPMModules = [
       "unstable": true
     },
     "score": {
-      "final": 0.5331833788249705,
+      "final": 0.5689779874056002,
       "detail": {
-        "quality": 0.5731391084634516,
-        "popularity": 0.03648263503381755,
-        "maintenance": 0.9956363543545681
+        "quality": 0.6925909071241196,
+        "popularity": 0.04191225253434731,
+        "maintenance": 0.990089791089551
       }
     },
-    "searchScore": 0.000049413473
-  },
-  {
-    "package": {
-      "name": "@amindunited/read-file",
-      "scope": "amindunited",
-      "version": "0.0.0",
-      "description": "A Promise wrapper around fs.readFile",
-      "keywords": [
-        "Read",
-        "File",
-        "Promise",
-        "fs.promise"
-      ],
-      "date": "2018-11-11T11:52:02.247Z",
-      "links": {
-        "npm": "https://www.npmjs.com/package/%40amindunited%2Fread-file",
-        "homepage": "https://github.com/amindunited/read-file#readme",
-        "repository": "https://github.com/amindunited/read-file",
-        "bugs": "https://github.com/amindunited/read-file/issues"
-      },
-      "author": {
-        "name": "amindunited"
-      },
-      "publisher": {
-        "username": "amindunited",
-        "email": "buckley.robin@gmail.com"
-      },
-      "maintainers": [
-        {
-          "username": "amindunited",
-          "email": "buckley.robin@gmail.com"
-        }
-      ]
-    },
-    "flags": {
-      "unstable": true
-    },
-    "score": {
-      "final": 0.5238810800792715,
-      "detail": {
-        "quality": 0.5687323917180246,
-        "popularity": 0.014682056943264958,
-        "maintenance": 0.9946361218106325
-      }
-    },
-    "searchScore": 0.000033558397
-  },
-  {
-    "package": {
-      "name": "@amindunited/file-stat",
-      "scope": "amindunited",
-      "version": "0.0.0",
-      "description": "This function returns information about a file",
-      "keywords": [
-        "File",
-        "status",
-        "Promise",
-        "fs.stat",
-        "info"
-      ],
-      "date": "2018-11-12T00:26:57.152Z",
-      "links": {
-        "npm": "https://www.npmjs.com/package/%40amindunited%2Ffile-stat",
-        "homepage": "https://github.com/amindunited/file-stat#readme",
-        "repository": "https://github.com/amindunited/file-stat",
-        "bugs": "https://github.com/amindunited/file-stat/issues"
-      },
-      "author": {
-        "name": "amindunited"
-      },
-      "publisher": {
-        "username": "amindunited",
-        "email": "buckley.robin@gmail.com"
-      },
-      "maintainers": [
-        {
-          "username": "amindunited",
-          "email": "buckley.robin@gmail.com"
-        }
-      ]
-    },
-    "flags": {
-      "unstable": true
-    },
-    "score": {
-      "final": 0.5236186940566377,
-      "detail": {
-        "quality": 0.5714913449648265,
-        "popularity": 0.011567565524195583,
-        "maintenance": 0.9946361218106325
-      }
-    },
-    "searchScore": 0.00003276379
-  },
-  {
-    "package": {
-      "name": "@amindunited/move-file",
-      "scope": "amindunited",
-      "version": "0.0.0",
-      "description": "A promise wrapped filed move / rename function",
-      "keywords": [
-        "Move",
-        "File",
-        "mv",
-        "rename",
-        "promise"
-      ],
-      "date": "2018-11-09T02:57:30.928Z",
-      "links": {
-        "npm": "https://www.npmjs.com/package/%40amindunited%2Fmove-file",
-        "homepage": "https://github.com/amindunited/move-file#readme",
-        "repository": "https://github.com/amindunited/move-file",
-        "bugs": "https://github.com/amindunited/move-file/issues"
-      },
-      "author": {
-        "name": "amindunited"
-      },
-      "publisher": {
-        "username": "amindunited",
-        "email": "buckley.robin@gmail.com"
-      },
-      "maintainers": [
-        {
-          "username": "amindunited",
-          "email": "buckley.robin@gmail.com"
-        }
-      ]
-    },
-    "flags": {
-      "unstable": true
-    },
-    "score": {
-      "final": 0.5083276128192051,
-      "detail": {
-        "quality": 0.5714913449648265,
-        "popularity": 0.0405715656004145,
-        "maintenance": 0.9219433181988921
-      }
-    },
-    "searchScore": 0.000024921213
-  },
-  {
-    "package": {
-      "name": "@amindunited/copy-file",
-      "scope": "amindunited",
-      "version": "0.0.0",
-      "description": "Copies a given file to a given destination",
-      "keywords": [
-        "Node",
-        "Javascript",
-        "copy",
-        "file"
-      ],
-      "date": "2018-11-07T03:30:05.576Z",
-      "links": {
-        "npm": "https://www.npmjs.com/package/%40amindunited%2Fcopy-file",
-        "homepage": "https://github.com/amindunited/copy-file#readme",
-        "repository": "https://github.com/amindunited/copy-file",
-        "bugs": "https://github.com/amindunited/copy-file/issues"
-      },
-      "author": {
-        "name": "amindunited"
-      },
-      "publisher": {
-        "username": "amindunited",
-        "email": "buckley.robin@gmail.com"
-      },
-      "maintainers": [
-        {
-          "username": "amindunited",
-          "email": "buckley.robin@gmail.com"
-        }
-      ]
-    },
-    "flags": {
-      "unstable": true
-    },
-    "score": {
-      "final": 0.5074003105768738,
-      "detail": {
-        "quality": 0.5703896416616387,
-        "popularity": 0.03886644773934304,
-        "maintenance": 0.9219433181988921
-      }
-    },
-    "searchScore": 0.000024004581
-  },
-  {
-    "package": {
-      "name": "@amindunited/exclude",
-      "scope": "amindunited",
-      "version": "0.0.1",
-      "description": "A utility function that will return a copy of an array without each element that matches any given pattern in an array of excludes",
-      "keywords": [
-        "Javascript",
-        "Array",
-        "js",
-        "exclude",
-        "remove"
-      ],
-      "date": "2018-10-16T04:15:39.007Z",
-      "links": {
-        "npm": "https://www.npmjs.com/package/%40amindunited%2Fexclude",
-        "homepage": "https://github.com/amindunited/exclude#readme",
-        "repository": "https://github.com/amindunited/exclude",
-        "bugs": "https://github.com/amindunited/exclude/issues"
-      },
-      "author": {
-        "name": "amindunited"
-      },
-      "publisher": {
-        "username": "amindunited",
-        "email": "buckley.robin@gmail.com"
-      },
-      "maintainers": [
-        {
-          "username": "amindunited",
-          "email": "buckley.robin@gmail.com"
-        }
-      ]
-    },
-    "flags": {
-      "unstable": true
-    },
-    "score": {
-      "final": 0.4879218895427902,
-      "detail": {
-        "quality": 0.5122256046946896,
-        "popularity": 0.035842678839451095,
-        "maintenance": 0.9191693444016442
-      }
-    },
-    "searchScore": 0.000016035834
-  },
-  {
-    "package": {
-      "name": "@amindunited/to-kebab-case",
-      "scope": "amindunited",
-      "version": "0.0.2",
-      "description": "Converts a string to be separated by dashes",
-      "keywords": [
-        "String",
-        "Kebab",
-        "Dashes"
-      ],
-      "date": "2018-10-17T02:14:47.242Z",
-      "links": {
-        "npm": "https://www.npmjs.com/package/%40amindunited%2Fto-kebab-case",
-        "homepage": "https://github.com/amindunited/to-kebab-case#readme",
-        "repository": "https://github.com/amindunited/to-kebab-case",
-        "bugs": "https://github.com/amindunited/to-kebab-case/issues"
-      },
-      "author": {
-        "name": "amindunited"
-      },
-      "publisher": {
-        "username": "amindunited",
-        "email": "buckley.robin@gmail.com"
-      },
-      "maintainers": [
-        {
-          "username": "amindunited",
-          "email": "buckley.robin@gmail.com"
-        }
-      ]
-    },
-    "flags": {
-      "unstable": true
-    },
-    "score": {
-      "final": 0.4755030226328617,
-      "detail": {
-        "quality": 0.5723159517989818,
-        "popularity": 0.03876571206244646,
-        "maintenance": 0.8292578224894598
-      }
-    },
-    "searchScore": 0.000009198098
-  },
-  {
-    "package": {
-      "name": "@amindunited/write-file",
-      "scope": "amindunited",
-      "version": "0.0.0",
-      "description": "A Promise wrapped implementation of node fs.writeFile",
-      "keywords": [
-        "File",
-        "write",
-        "writeFile",
-        "Promise",
-        "fs"
-      ],
-      "date": "2018-11-15T10:27:01.549Z",
-      "links": {
-        "npm": "https://www.npmjs.com/package/%40amindunited%2Fwrite-file",
-        "homepage": "https://github.com/amindunited/write-file#readme",
-        "repository": "https://github.com/amindunited/write-file",
-        "bugs": "https://github.com/amindunited/write-file/issues"
-      },
-      "author": {
-        "name": "amindunited"
-      },
-      "publisher": {
-        "username": "amindunited",
-        "email": "buckley.robin@gmail.com"
-      },
-      "maintainers": [
-        {
-          "username": "amindunited",
-          "email": "buckley.robin@gmail.com"
-        }
-      ]
-    },
-    "flags": {
-      "unstable": true
-    },
-    "score": {
-      "final": 0.4702477546141812,
-      "detail": {
-        "quality": 0.36354103078679245,
-        "popularity": 0.03732229355549177,
-        "maintenance": 0.9946361218106325
-      }
-    },
-    "searchScore": 0.000006932654
-  },
-  {
-    "package": {
-      "name": "@amindunited/to-camel-case",
-      "scope": "amindunited",
-      "version": "0.0.0",
-      "description": "Joins a string separated by dashes or underscores and uppercases the first character of each word",
-      "keywords": [
-        "String",
-        "Javascript",
-        "Camel"
-      ],
-      "date": "2018-10-18T11:32:12.254Z",
-      "links": {
-        "npm": "https://www.npmjs.com/package/%40amindunited%2Fto-camel-case",
-        "homepage": "https://github.com/amindunited/to-camel-case#readme",
-        "repository": "https://github.com/amindunited/to-camel-case",
-        "bugs": "https://github.com/amindunited/to-camel-case/issues"
-      },
-      "author": {
-        "name": "amindunited"
-      },
-      "publisher": {
-        "username": "amindunited",
-        "email": "buckley.robin@gmail.com"
-      },
-      "maintainers": [
-        {
-          "username": "amindunited",
-          "email": "buckley.robin@gmail.com"
-        }
-      ]
-    },
-    "flags": {
-      "unstable": true
-    },
-    "score": {
-      "final": 0.46435326316537884,
-      "detail": {
-        "quality": 0.5863642392904782,
-        "popularity": 0.03757488312258181,
-        "maintenance": 0.7865508065295193
-      }
-    },
-    "searchScore": 0.000006480006
+    "searchScore": 0.0001386977
   },
   {
     "package": {
@@ -549,14 +132,107 @@ const amuNPMModules = [
       "unstable": true
     },
     "score": {
-      "final": 0.466846402947343,
+      "final": 0.5577596113924923,
       "detail": {
-        "quality": 0.36354103078679245,
-        "popularity": 0.042558538069641175,
-        "maintenance": 0.9796817296769453
+        "quality": 0.6572371134550925,
+        "popularity": 0.05057106276866742,
+        "maintenance": 0.9796817296769456
       }
     },
-    "searchScore": 0.00000643408
+    "searchScore": 0.00010651184
+  },
+  {
+    "package": {
+      "name": "@amindunited/revision-hash",
+      "scope": "amindunited",
+      "version": "0.0.0",
+      "description": "Creates an MD5 hash of a given string and returns the first 10 characters",
+      "keywords": [
+        "MD5",
+        "cache-busting",
+        "cache",
+        "hash"
+      ],
+      "date": "2018-11-26T06:08:52.802Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/%40amindunited%2Frevision-hash",
+        "homepage": "https://github.com/amindunited/revision-hash#readme",
+        "repository": "https://github.com/amindunited/revision-hash",
+        "bugs": "https://github.com/amindunited/revision-hash/issues"
+      },
+      "author": {
+        "name": "amindunited"
+      },
+      "publisher": {
+        "username": "amindunited",
+        "email": "buckley.robin@gmail.com"
+      },
+      "maintainers": [
+        {
+          "username": "amindunited",
+          "email": "buckley.robin@gmail.com"
+        }
+      ]
+    },
+    "flags": {
+      "unstable": true
+    },
+    "score": {
+      "final": 0.5567822352129799,
+      "detail": {
+        "quality": 0.6999313182032951,
+        "popularity": 0.04164981146270916,
+        "maintenance": 0.949215444971552
+      }
+    },
+    "searchScore": 0.000100884004
+  },
+  {
+    "package": {
+      "name": "@amindunited/exclude",
+      "scope": "amindunited",
+      "version": "0.0.1",
+      "description": "A utility function that will return a copy of an array without each element that matches any given pattern in an array of excludes",
+      "keywords": [
+        "Javascript",
+        "Array",
+        "js",
+        "exclude",
+        "remove"
+      ],
+      "date": "2018-10-16T04:15:39.007Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/%40amindunited%2Fexclude",
+        "homepage": "https://github.com/amindunited/exclude#readme",
+        "repository": "https://github.com/amindunited/exclude",
+        "bugs": "https://github.com/amindunited/exclude/issues"
+      },
+      "author": {
+        "name": "amindunited"
+      },
+      "publisher": {
+        "username": "amindunited",
+        "email": "buckley.robin@gmail.com"
+      },
+      "maintainers": [
+        {
+          "username": "amindunited",
+          "email": "buckley.robin@gmail.com"
+        }
+      ]
+    },
+    "flags": {
+      "unstable": true
+    },
+    "score": {
+      "final": 0.5465455705083738,
+      "detail": {
+        "quality": 0.6960216626707922,
+        "popularity": 0.04579943190445909,
+        "maintenance": 0.9191693444016442
+      }
+    },
+    "searchScore": 0.000097882796
   },
   {
     "package": {
@@ -595,14 +271,333 @@ const amuNPMModules = [
       "unstable": true
     },
     "score": {
-      "final": 0.43741550070620894,
+      "final": 0.549030626037363,
       "detail": {
         "quality": 0.6744545881930136,
-        "popularity": 0.00951372348482264,
-        "maintenance": 0.6621409172246198
+        "popularity": 0.041339553826902124,
+        "maintenance": 0.949215444971552
       }
     },
-    "searchScore": 0.000002335123
+    "searchScore": 0.00008095242
+  },
+  {
+    "package": {
+      "name": "@amindunited/child-process",
+      "scope": "amindunited",
+      "version": "0.0.0",
+      "description": "A promise wrapper around child-process",
+      "keywords": [
+        "child",
+        "process",
+        "child-process",
+        "exec"
+      ],
+      "date": "2018-12-03T11:03:37.927Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/%40amindunited%2Fchild-process",
+        "homepage": "https://github.com/amindunited/child-process#readme",
+        "repository": "https://github.com/amindunited/child-process",
+        "bugs": "https://github.com/amindunited/child-process/issues"
+      },
+      "author": {
+        "name": "amindunited"
+      },
+      "publisher": {
+        "username": "amindunited",
+        "email": "buckley.robin@gmail.com"
+      },
+      "maintainers": [
+        {
+          "username": "amindunited",
+          "email": "buckley.robin@gmail.com"
+        }
+      ]
+    },
+    "flags": {
+      "unstable": true
+    },
+    "score": {
+      "final": 0.5457945636896229,
+      "detail": {
+        "quality": 0.6936861650630041,
+        "popularity": 0.04565555322898895,
+        "maintenance": 0.9191693444016442
+      }
+    },
+    "searchScore": 0.000076594944
+  },
+  {
+    "package": {
+      "name": "@amindunited/file-stat",
+      "scope": "amindunited",
+      "version": "0.0.0",
+      "description": "This function returns information about a file",
+      "keywords": [
+        "File",
+        "status",
+        "Promise",
+        "fs.stat",
+        "info"
+      ],
+      "date": "2018-11-12T00:26:57.152Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/%40amindunited%2Ffile-stat",
+        "homepage": "https://github.com/amindunited/file-stat#readme",
+        "repository": "https://github.com/amindunited/file-stat",
+        "bugs": "https://github.com/amindunited/file-stat/issues"
+      },
+      "author": {
+        "name": "amindunited"
+      },
+      "publisher": {
+        "username": "amindunited",
+        "email": "buckley.robin@gmail.com"
+      },
+      "maintainers": [
+        {
+          "username": "amindunited",
+          "email": "buckley.robin@gmail.com"
+        }
+      ]
+    },
+    "flags": {
+      "unstable": true
+    },
+    "score": {
+      "final": 0.5453447734946294,
+      "detail": {
+        "quality": 0.6909431436254945,
+        "popularity": 0.04672159961830176,
+        "maintenance": 0.9191693444016442
+      }
+    },
+    "searchScore": 0.00007601303
+  },
+  {
+    "package": {
+      "name": "@amindunited/read-dir",
+      "scope": "amindunited",
+      "version": "0.0.0",
+      "description": "Read the contents of a Directory",
+      "keywords": [
+        "Read",
+        "Directory",
+        "dir",
+        "ls",
+        "promise"
+      ],
+      "date": "2018-11-10T08:38:45.297Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/%40amindunited%2Fread-dir",
+        "homepage": "https://github.com/amindunited/read-dir#readme",
+        "repository": "https://github.com/amindunited/read-dir",
+        "bugs": "https://github.com/amindunited/read-dir/issues"
+      },
+      "author": {
+        "name": "amindunited"
+      },
+      "publisher": {
+        "username": "amindunited",
+        "email": "buckley.robin@gmail.com"
+      },
+      "maintainers": [
+        {
+          "username": "amindunited",
+          "email": "buckley.robin@gmail.com"
+        }
+      ]
+    },
+    "flags": {
+      "unstable": true
+    },
+    "score": {
+      "final": 0.5442514460019909,
+      "detail": {
+        "quality": 0.6867989271442236,
+        "popularity": 0.047149992337566934,
+        "maintenance": 0.9191693444016442
+      }
+    },
+    "searchScore": 0.00007383124
+  },
+  {
+    "package": {
+      "name": "@amindunited/move-file",
+      "scope": "amindunited",
+      "version": "0.0.0",
+      "description": "A promise wrapped filed move / rename function",
+      "keywords": [
+        "Move",
+        "File",
+        "mv",
+        "rename",
+        "promise"
+      ],
+      "date": "2018-11-09T02:57:30.928Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/%40amindunited%2Fmove-file",
+        "homepage": "https://github.com/amindunited/move-file#readme",
+        "repository": "https://github.com/amindunited/move-file",
+        "bugs": "https://github.com/amindunited/move-file/issues"
+      },
+      "author": {
+        "name": "amindunited"
+      },
+      "publisher": {
+        "username": "amindunited",
+        "email": "buckley.robin@gmail.com"
+      },
+      "maintainers": [
+        {
+          "username": "amindunited",
+          "email": "buckley.robin@gmail.com"
+        }
+      ]
+    },
+    "flags": {
+      "unstable": true
+    },
+    "score": {
+      "final": 0.5435977327010408,
+      "detail": {
+        "quality": 0.6909431436254945,
+        "popularity": 0.04173005449376301,
+        "maintenance": 0.9191693444016442
+      }
+    },
+    "searchScore": 0.000070565366
+  },
+  {
+    "package": {
+      "name": "@amindunited/copy-file",
+      "scope": "amindunited",
+      "version": "0.0.0",
+      "description": "Copies a given file to a given destination",
+      "keywords": [
+        "Node",
+        "Javascript",
+        "copy",
+        "file"
+      ],
+      "date": "2018-11-07T03:30:05.576Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/%40amindunited%2Fcopy-file",
+        "homepage": "https://github.com/amindunited/copy-file#readme",
+        "repository": "https://github.com/amindunited/copy-file",
+        "bugs": "https://github.com/amindunited/copy-file/issues"
+      },
+      "author": {
+        "name": "amindunited"
+      },
+      "publisher": {
+        "username": "amindunited",
+        "email": "buckley.robin@gmail.com"
+      },
+      "maintainers": [
+        {
+          "username": "amindunited",
+          "email": "buckley.robin@gmail.com"
+        }
+      ]
+    },
+    "flags": {
+      "unstable": true
+    },
+    "score": {
+      "final": 0.5431572739091426,
+      "detail": {
+        "quality": 0.6898414403223065,
+        "popularity": 0.041415917919643525,
+        "maintenance": 0.9191693444016442
+      }
+    },
+    "searchScore": 0.000069572416
+  },
+  {
+    "package": {
+      "name": "@amindunited/read-file",
+      "scope": "amindunited",
+      "version": "0.0.0",
+      "description": "A Promise wrapper around fs.readFile",
+      "keywords": [
+        "Read",
+        "File",
+        "Promise",
+        "fs.promise"
+      ],
+      "date": "2018-11-11T11:52:02.247Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/%40amindunited%2Fread-file",
+        "homepage": "https://github.com/amindunited/read-file#readme",
+        "repository": "https://github.com/amindunited/read-file",
+        "bugs": "https://github.com/amindunited/read-file/issues"
+      },
+      "author": {
+        "name": "amindunited"
+      },
+      "publisher": {
+        "username": "amindunited",
+        "email": "buckley.robin@gmail.com"
+      },
+      "maintainers": [
+        {
+          "username": "amindunited",
+          "email": "buckley.robin@gmail.com"
+        }
+      ]
+    },
+    "flags": {
+      "unstable": true
+    },
+    "score": {
+      "final": 0.5425888341241679,
+      "detail": {
+        "quality": 0.6881841903786927,
+        "popularity": 0.04121230419995614,
+        "maintenance": 0.9191693444016442
+      }
+    },
+    "searchScore": 0.000068378016
+  },
+  {
+    "package": {
+      "name": "@amindunited/node-package-boilerplate",
+      "scope": "amindunited",
+      "version": "0.0.8",
+      "description": "A script that will install libs and write files that are common to my node module projects",
+      "date": "2019-01-10T06:11:25.861Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/%40amindunited%2Fnode-package-boilerplate",
+        "homepage": "https://github.com/amindunited/node-package-boilerplate#readme",
+        "repository": "https://github.com/amindunited/node-package-boilerplate",
+        "bugs": "https://github.com/amindunited/node-package-boilerplate/issues"
+      },
+      "author": {
+        "name": "amindunited"
+      },
+      "publisher": {
+        "username": "amindunited",
+        "email": "buckley.robin@gmail.com"
+      },
+      "maintainers": [
+        {
+          "username": "amindunited",
+          "email": "buckley.robin@gmail.com"
+        }
+      ]
+    },
+    "flags": {
+      "unstable": true
+    },
+    "score": {
+      "final": 0.5400409319404591,
+      "detail": {
+        "quality": 0.6453375796906882,
+        "popularity": 0.024912566840649967,
+        "maintenance": 0.964915027540072
+      }
+    },
+    "searchScore": 0.00005720001
   },
   {
     "package": {
@@ -642,14 +637,151 @@ const amuNPMModules = [
       "unstable": true
     },
     "score": {
-      "final": 0.43293904728438126,
+      "final": 0.5343708384092752,
       "detail": {
         "quality": 0.6605108936587953,
-        "popularity": 0.00951372348482264,
-        "maintenance": 0.6613027884772994
+        "popularity": 0.04145228506017487,
+        "maintenance": 0.9191693444016442
       }
     },
-    "searchScore": 0.0000019883814
+    "searchScore": 0.00005396728
+  },
+  {
+    "package": {
+      "name": "@amindunited/write-file",
+      "scope": "amindunited",
+      "version": "0.0.0",
+      "description": "A Promise wrapped implementation of node fs.writeFile",
+      "keywords": [
+        "File",
+        "write",
+        "writeFile",
+        "Promise",
+        "fs"
+      ],
+      "date": "2018-11-15T10:27:01.549Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/%40amindunited%2Fwrite-file",
+        "homepage": "https://github.com/amindunited/write-file#readme",
+        "repository": "https://github.com/amindunited/write-file",
+        "bugs": "https://github.com/amindunited/write-file/issues"
+      },
+      "author": {
+        "name": "amindunited"
+      },
+      "publisher": {
+        "username": "amindunited",
+        "email": "buckley.robin@gmail.com"
+      },
+      "maintainers": [
+        {
+          "username": "amindunited",
+          "email": "buckley.robin@gmail.com"
+        }
+      ]
+    },
+    "flags": {
+      "unstable": true
+    },
+    "score": {
+      "final": 0.5329698565257541,
+      "detail": {
+        "quality": 0.6572371134550925,
+        "popularity": 0.04025557699614558,
+        "maintenance": 0.9191693444016442
+      }
+    },
+    "searchScore": 0.00005149424
+  },
+  {
+    "package": {
+      "name": "@amindunited/to-kebab-case",
+      "scope": "amindunited",
+      "version": "0.0.2",
+      "description": "Converts a string to be separated by dashes",
+      "keywords": [
+        "String",
+        "Kebab",
+        "Dashes"
+      ],
+      "date": "2018-10-17T02:14:47.242Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/%40amindunited%2Fto-kebab-case",
+        "homepage": "https://github.com/amindunited/to-kebab-case#readme",
+        "repository": "https://github.com/amindunited/to-kebab-case",
+        "bugs": "https://github.com/amindunited/to-kebab-case/issues"
+      },
+      "author": {
+        "name": "amindunited"
+      },
+      "publisher": {
+        "username": "amindunited",
+        "email": "buckley.robin@gmail.com"
+      },
+      "maintainers": [
+        {
+          "username": "amindunited",
+          "email": "buckley.robin@gmail.com"
+        }
+      ]
+    },
+    "flags": {
+      "unstable": true
+    },
+    "score": {
+      "final": 0.3952161677117425,
+      "detail": {
+        "quality": 0.6917677504596498,
+        "popularity": 0.04023328434488352,
+        "maintenance": 0.4960119801518239
+      }
+    },
+    "searchScore": 6.50432e-7
+  },
+  {
+    "package": {
+      "name": "@amindunited/to-camel-case",
+      "scope": "amindunited",
+      "version": "0.0.0",
+      "description": "Joins a string separated by dashes or underscores and uppercases the first character of each word",
+      "keywords": [
+        "String",
+        "Javascript",
+        "Camel"
+      ],
+      "date": "2018-10-18T11:32:12.254Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/%40amindunited%2Fto-camel-case",
+        "homepage": "https://github.com/amindunited/to-camel-case#readme",
+        "repository": "https://github.com/amindunited/to-camel-case",
+        "bugs": "https://github.com/amindunited/to-camel-case/issues"
+      },
+      "author": {
+        "name": "amindunited"
+      },
+      "publisher": {
+        "username": "amindunited",
+        "email": "buckley.robin@gmail.com"
+      },
+      "maintainers": [
+        {
+          "username": "amindunited",
+          "email": "buckley.robin@gmail.com"
+        }
+      ]
+    },
+    "flags": {
+      "unstable": true
+    },
+    "score": {
+      "final": 0.3843968106607364,
+      "detail": {
+        "quality": 0.7058160379511464,
+        "popularity": 0.039986462309237636,
+        "maintenance": 0.45330496419188376
+      }
+    },
+    "searchScore": 4.3714024e-7
   },
   {
     "package": {
@@ -691,14 +823,14 @@ const amuNPMModules = [
       "unstable": true
     },
     "score": {
-      "final": 0.4081418975133306,
+      "final": 0.3805706825807126,
       "detail": {
-        "quality": 0.3778071295792469,
-        "popularity": 0.03778528483297748,
-        "maintenance": 0.8044997398514698
+        "quality": 0.6715032122475468,
+        "popularity": 0.04051672793316211,
+        "maintenance": 0.47125389751383384
       }
     },
-    "searchScore": 8.572754e-7
+    "searchScore": 3.7126154e-7
   },
   {
     "package": {
@@ -738,106 +870,14 @@ const amuNPMModules = [
       "unstable": true
     },
     "score": {
-      "final": 0.4071605427745649,
+      "final": 0.37936071438386776,
       "detail": {
-        "quality": 0.3746222989260297,
-        "popularity": 0.03771126899640462,
-        "maintenance": 0.8044997398514698
+        "quality": 0.6683183815943299,
+        "popularity": 0.039789530787791245,
+        "maintenance": 0.47125389751383384
       }
     },
-    "searchScore": 8.252368e-7
-  },
-  {
-    "package": {
-      "name": "@amindunited/revision-hash",
-      "scope": "amindunited",
-      "version": "0.0.0",
-      "description": "Creates an MD5 hash of a given string and returns the first 10 characters",
-      "keywords": [
-        "MD5",
-        "cache-busting",
-        "cache",
-        "hash"
-      ],
-      "date": "2018-11-26T06:08:52.802Z",
-      "links": {
-        "npm": "https://www.npmjs.com/package/%40amindunited%2Frevision-hash",
-        "homepage": "https://github.com/amindunited/revision-hash#readme",
-        "repository": "https://github.com/amindunited/revision-hash",
-        "bugs": "https://github.com/amindunited/revision-hash/issues"
-      },
-      "author": {
-        "name": "amindunited"
-      },
-      "publisher": {
-        "username": "amindunited",
-        "email": "buckley.robin@gmail.com"
-      },
-      "maintainers": [
-        {
-          "username": "amindunited",
-          "email": "buckley.robin@gmail.com"
-        }
-      ]
-    },
-    "flags": {
-      "unstable": true
-    },
-    "score": {
-      "final": 0.34588583649848115,
-      "detail": {
-        "quality": 0.3703334845312062,
-        "popularity": 0.009513757634470288,
-        "maintenance": 0.6613027884772993
-      }
-    },
-    "searchScore": 5.8199767e-8
-  },
-  {
-    "package": {
-      "name": "@amindunited/child-process",
-      "scope": "amindunited",
-      "version": "0.0.0",
-      "description": "A promise wrapper around child-process",
-      "keywords": [
-        "child",
-        "process",
-        "child-process",
-        "exec"
-      ],
-      "date": "2018-12-03T11:03:37.927Z",
-      "links": {
-        "npm": "https://www.npmjs.com/package/%40amindunited%2Fchild-process",
-        "homepage": "https://github.com/amindunited/child-process#readme",
-        "repository": "https://github.com/amindunited/child-process",
-        "bugs": "https://github.com/amindunited/child-process/issues"
-      },
-      "author": {
-        "name": "amindunited"
-      },
-      "publisher": {
-        "username": "amindunited",
-        "email": "buckley.robin@gmail.com"
-      },
-      "maintainers": [
-        {
-          "username": "amindunited",
-          "email": "buckley.robin@gmail.com"
-        }
-      ]
-    },
-    "flags": {
-      "unstable": true
-    },
-    "score": {
-      "final": 0.3440122905563938,
-      "detail": {
-        "quality": 0.364088331390915,
-        "popularity": 0.009513757634470288,
-        "maintenance": 0.6613027884772993
-      }
-    },
-    "searchScore": 5.3418564e-8
+    "searchScore": 3.5174935e-7
   },
   {
     "package": {
@@ -878,13 +918,13 @@ const amuNPMModules = [
       "unstable": true
     },
     "score": {
-      "final": 0.1584613837643525,
+      "final": 0.15815516351253894,
       "detail": {
-        "quality": 0.10509370752204258,
-        "popularity": 0.0293331566887802,
-        "maintenance": 0.3333333333333333
+        "quality": 0.10509370752204265,
+        "popularity": 0.03123221548084644,
+        "maintenance": 0.3305593595360854
       }
     },
-    "searchScore": 5.454378e-13
+    "searchScore": 5.422189e-13
   }
 ]

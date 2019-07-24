@@ -1,6 +1,7 @@
  
 # iterm, with zsh and Material Theme
 
+June 11, 2019
 
 ### 1. install iTerm2: [https://www.iterm2.com/
 

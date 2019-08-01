@@ -6,3 +6,5 @@
 
 [External Config in Angular](external-config-with-angular) - Created: July 24, 2019
 
+[Nightwatch VRT Setup](nightwatch-vrt-setup) - Created: August 1, 2019
+

@@ -1,0 +1,214 @@
+# Nightwatch VRT Setup
+
+August 1, 2019
+
+```
+npm install nightwatch --save-dev
+npm install nightwatch-vrt --save-dev
+npm install nightwatch-vrt-reporter --save-dev
+npm install concurrently --save-dev
+npm install selenium-standalone --save-dev
+```
+
+Add Run scripts:
+
+```JSON
+  "selenium:install": "selenium-standalone install",
+  "selenium:start": "selenium-standalone start & echo $! > selenium.pid",
+  "selenium:stop": "kill $(< selenium.pid); rm selenium.pid",
+  "nightwatch:chrome": "nightwatch -c ./nightwatch.conf.js -e chrome -r ./node_modules/nightwatch-vrt-reporter/lib/index.js",
+  "vrt": "concurrently \"npm run start\" \"npm run selenium:start ; sleep 2 ; npm run nightwatch:chrome ; npm run selenium:stop\"  --kill-others --success first",
+  "vrt:accept": "rm -rf ./visual-regression/screens/baseline; npm run vrt"
+```
+
+Create a config for Nightwatch:
+
+
+```
+cat nightWatch.conf.js <<EOL
+const SCREENSHOT_PATH = './visual-regression/screens/';
+
+// we use a nightwatch.conf.js file so we can include comments and helper functions
+module.exports = {
+  src_folders: [ './visual-regression/tests' ],
+  output_folder: './visual-regression/report',
+  selenium: {
+    start_process: false, // tells nightwatch to start/stop the selenium process
+    host: '127.0.0.1',
+    port: 4444, // standard selenium port
+  },
+  globals_path : "./visual-regression/nightwatchGlobals.js",
+  custom_commands_path: [ 'node_modules/nightwatch-vrt/commands', './visual-regression/commands' ],
+  custom_assertions_path: [ 'node_modules/nightwatch-vrt/assertions' ],
+  test_settings: {
+    default: {
+      silent: true,
+      globals: {
+        waitForConditionTimeout: 5000, // sometimes internet is slow so wait.
+        visual_regression_settings: {
+          latest_screenshots_path: "./visual-regression/screens/latest",
+          baseline_screenshots_path: "./visual-regression/screens/baseline",
+          diff_screenshots_path: "./visual-regression/screens/diff",
+          threshold: 0.05,
+          prompt: false,
+          always_save_diff_screenshot: false
+        }
+      }
+    },
+    chrome: {
+      desiredCapabilities: {
+        browserName: "chrome",
+        chromeOptions: { args: [ "--headless", "--disable-gpu", "--window-size=800,600" ] },
+        javascriptEnabled: true // turn off to test progressive enhancement
+      }
+    },
+    firefox: {
+      desiredCapabilities: {
+        browserName: 'firefox',
+        acceptInsecureCerts: true,
+        "moz:firefoxOptions": {
+          args: ["--headless"]
+        },
+        javascriptEnabled: true // turn off to test progressive enhancement
+      }
+    }
+  }
+}
+EOL
+
+```
+
+
+Create a visual-regression directory in your project root
+
+```javascript
+
+mkdir visual-regression && cd $_ && mkdir commands && mkdir screens && mkdir tests
+
+```
+
+Add a utils script
+
+```
+cat utils <<EOL
+module.exports =  {
+  globalThreshold: 0.001,
+  getBrowser(config) {
+    if (config.test_settings.chrome && config.test_settings.chrome.output) {
+      return 'chrome';
+    } else if (config.test_settings.firefox && config.test_settings.firefox.output) {
+      return 'firefox';
+    } else {
+      return 'unknown';
+    }
+  }
+}
+EOL
+```
+
+Setup Globals
+
+```
+cat nightwatchGlobals.js <<EOL
+module.exports =  {
+  // before : function(cb) {
+  //   console.log('GLOBAL BEFORE')
+  //   cb();
+  // },
+
+  // beforeEach : function(browser, cb) {
+    // console.log('GLOBAL beforeEach')
+    // cb();
+  // },
+
+  // after : function(cb) {
+    // console.log('GLOBAL AFTER')
+    // cb();
+  // },
+
+  afterEach : function(browser, cb) {
+    browser.perform(function() {
+      console.log('GLOBAL afterEach')
+      cb();
+    })
+  }
+}
+EOL
+
+```
+
+
+
+Create some example commands:
+
+```
+
+cat commands/testIndexPage.js <<EOL
+var util = require('util');
+var EventEmitter = require('events');
+
+function TestIndexPage() {
+  EventEmitter.call(this);
+}
+
+util.inherits(testIndexPage, EventEmitter);
+
+TestIndexPage.prototype.command = function(screenWidth, browserName, cb) {
+  browser = this;
+  if (!screenWidth || !browserName) {
+    return browser;
+  }
+  browser.api.resizeWindow(screenWidth, 1080)
+    .pause(1000)
+    // Example:
+    // get querySelect('body'), screenshotname, {...options}
+    .verify.screenshotIdenticalToBaseline('body', `${screenWidth}/body/${browserName}`, {threshold: 0.05})
+
+  setTimeout(function() {
+    // if we have a callback, call it right before the complete event
+    if (cb) {
+      cb.call(browser.client.api);
+    }
+
+    browser.emit('complete');
+  }, 100);
+
+  return browser;
+};
+
+module.exports = TestIndexPage;
+EOL
+
+
+```
+
+Create an example test
+
+```
+cat tests/example-page.js <<EOL
+let utils = require('../utils');
+let config = require('../../nightwatch.conf.js');
+
+let browserName = utils.getBrowser(config);
+
+module.exports = { // adapted from: https://git.io/vodU0
+  'All Components page': function(browser) {
+    browser.url('http://localhost:4200/')
+      .testAllComponentsPage(320, browserName)
+      .testAllComponentsPage(600, browserName)
+      .testAllComponentsPage(1080, browserName)
+      .end();
+  }
+}
+
+EOL
+
+```
+
+
+
+
+Setup Selenuim (you'll have to do this in your CI too)
+```
+npm run selenium:install
+```

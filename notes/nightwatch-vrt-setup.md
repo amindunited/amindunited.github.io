@@ -1,24 +1,27 @@
 # Nightwatch VRT Setup
 
 August 1, 2019
+  
+  - Update August 2, 2019
+
+npm Install
 
 ```
-npm install nightwatch --save-dev
-npm install nightwatch-vrt --save-dev
-npm install nightwatch-vrt-reporter --save-dev
-npm install concurrently --save-dev
-npm install selenium-standalone --save-dev
+
+npm install nightwatch nightwatch-vrt nightwatch-vrt-reporter concurrently selenium-standalone wait-on chromedriver --save-dev
+
 ```
 
 Add Run scripts:
 
 ```JSON
-  "selenium:install": "selenium-standalone install",
-  "selenium:start": "selenium-standalone start & echo $! > selenium.pid",
-  "selenium:stop": "kill $(< selenium.pid); rm selenium.pid",
-  "nightwatch:chrome": "nightwatch -c ./nightwatch.conf.js -e chrome -r ./node_modules/nightwatch-vrt-reporter/lib/index.js",
-  "vrt": "concurrently \"npm run start\" \"npm run selenium:start ; sleep 2 ; npm run nightwatch:chrome ; npm run selenium:stop\"  --kill-others --success first",
-  "vrt:accept": "rm -rf ./visual-regression/screens/baseline; npm run vrt"
+    "selenium:install": "selenium-standalone install",
+    "selenium:start": "selenium-standalone start & echo $! > selenium.pid",
+    "selenium:stop": "kill $(< selenium.pid); rm selenium.pid",
+    "nightwatch:chrome": "nightwatch -c ./nightwatch.conf.js -e chrome -r ./node_modules/nightwatch-vrt-reporter/lib/index.js",
+    "vrt:runner": "npm run selenium:start ; sleep 2 ; npm run nightwatch:chrome; npm run selenium:stop",
+    "vrt": "concurrently 'npm run start' '$(npm bin)/wait-on http://localhost:4200 && npm run vrt:runner' --kill-others --success first",
+    "vrt:accept": "rm -rf ./visual-regression/screens/baseline; npm run vrt"
 ```
 
 Create a config for Nightwatch:
@@ -189,14 +192,12 @@ cat tests/example-page.js <<EOL
 let utils = require('../utils');
 let config = require('../../nightwatch.conf.js');
 
-let browserName = utils.getBrowser(config);
-
 module.exports = { // adapted from: https://git.io/vodU0
   'All Components page': function(browser) {
     browser.url('http://localhost:4200/')
-      .testAllComponentsPage(320, browserName)
-      .testAllComponentsPage(600, browserName)
-      .testAllComponentsPage(1080, browserName)
+      .testAllComponentsPage(320, browser.capabilities.browserName)
+      .testAllComponentsPage(600, browser.capabilities.browserName)
+      .testAllComponentsPage(1080, browser.capabilities.browserName)
       .end();
   }
 }

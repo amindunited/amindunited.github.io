@@ -1,0 +1,74 @@
+:root {
+  --base-measure: 8px;
+  --border-radius: 3px;
+  --border-width: 1px;
+  --link-transition: .3s;
+  --body-font-size: calc(var(--base-measure) * 2);
+
+  --notification-height: calc(var(--base-measure) * 10);
+
+  --grail-main-grow: 4;
+  /** Unused
+  --grail-left-grow: 1;
+  --grail-right-grow: 1;
+  */
+  --grail-top-height: 10px;
+  --grail-bottom-height: 10px;
+
+  --font-path: './assets/fonts/';
+
+  /**
+   * These cannot be used in media queries :(
+   */
+  /* 0 */
+  --screen-xsm: 0;
+  --xsm-content: 100%;
+  /* 480px */
+  --screen-sm: 480px;
+  --sm-content: 100%;
+  /* 680px */
+  --screen-md: 680px;
+  --md-content: 100%;
+  /* 970px */
+  --screen-lg: 970px;
+  --lg-content: 940px;
+  /* 1170px */
+  --screen-xl: 1170px;
+  --xl-content: 1170px;
+  /* 1600px */
+  --screen-xxl: 1600px;
+  --xxl-content: 1170px;
+
+
+
+
+  --colour_varient: 7%;
+
+  --blue-gray-50: #ECEFF1;
+  --blue-gray-100: #CFD8DC;
+  --blue-gray-200: #B0BEC5;
+  --blue-gray-300: #90A4AE;
+  --blue-gray-400: #78909C;
+  --blue-gray-500: #607D8B;
+  --blue-gray-600: #546E7A;
+  --blue-gray-700: #455A64;
+  --blue-gray-800: #37474F;
+  --blue-gray-900: #263238;
+
+  --red-50: #FFEBEE;
+  --red-100: #FFCDD2;
+  --red-200: #EF9A9A;
+  --red-300: #E57373;
+  --red-400: #EF5350;
+  --red-500: #F44336;
+  --red-600: #E53935;
+  --red-700: #D32F2F;
+  --red-800: #C62828;
+  --red-900: #B71C1C;
+
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+}
+
+

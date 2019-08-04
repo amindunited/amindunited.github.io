@@ -1,0 +1,103 @@
+:root {
+  --gutter: var(--base-measure) * 2;
+  --num-columns: 12;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.grid .row {
+  width: 100%;
+  /** SOF Same as grid */
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  /** EOF Same as grid */
+}
+
+.grid .column, .grid .col {
+  margin-left: calc( var(--gutter) / 2 );
+  margin-right: calc( var(--gutter) / 2 );
+  --col-span: 12;
+  --width: calc( ( var(--col-span) / var(--num-columns) )  * 100% );
+  width: calc( var(--width) - (var(--gutter) * 2) );
+  /* border: solid 1px gray; */
+}
+
+.grid .column.width_1, .grid .col.width_1 {
+  --col-span: 1;
+  --width: calc(( var(--col-span) / var(--num-columns) ) * 100% );
+  width: calc(var(--width) - var(--gutter));
+}
+
+.grid .column.width_2, .grid .col.width_2 {
+  --col-span: 2;
+  --width: calc(( var(--col-span) / var(--num-columns) ) * 100% );
+  width: calc(var(--width) - var(--gutter));
+}
+
+.grid .column.width_3, .grid .col.width_3 {
+  --col-span: 3;
+  --width: calc(( var(--col-span) / var(--num-columns) ) * 100% );
+  width: calc(var(--width) - var(--gutter));
+}
+
+.grid .column.width_4, .grid .col.width_4 {
+  --col-span: 4;
+  --width: calc(( var(--col-span) / var(--num-columns) ) * 100% );
+  width: calc(var(--width) - var(--gutter));
+}
+
+.grid .column.width_5, .grid .col.width_5 {
+  --col-span: 5;
+  --width: calc(( var(--col-span) / var(--num-columns) ) * 100% );
+  width: calc(var(--width) - var(--gutter));
+}
+
+.grid .column.width_6, .grid .col.width_6 {
+  --col-span: 6;
+  --width: calc(( var(--col-span) / var(--num-columns) ) * 100% );
+  width: calc(var(--width) - var(--gutter));
+}
+
+.grid .column.width_7, .grid .col.width_7 {
+  --col-span: 7;
+  --width: calc(( var(--col-span) / var(--num-columns) ) * 100% );
+  width: calc(var(--width) - var(--gutter));
+}
+
+.grid .column.width_8, .grid .col.width_8 {
+  --col-span: 8;
+  --width: calc(( var(--col-span) / var(--num-columns) ) * 100% );
+  width: calc(var(--width) - var(--gutter));
+}
+
+.grid .column.width_9, .grid .col.width_9 {
+  --col-span: 9;
+  --width: calc(( var(--col-span) / var(--num-columns) ) * 100% );
+  width: calc(var(--width) - var(--gutter));
+}
+
+.grid .column.width_10, .grid .col.width_10 {
+  --col-span: 10;
+  --width: calc(( var(--col-span) / var(--num-columns) ) * 100% );
+  width: calc(var(--width) - var(--gutter));
+}
+
+.grid .column.width_11, .grid .col.width_11 {
+  --col-span: 11;
+  --width: calc(( var(--col-span) / var(--num-columns) ) * 100% );
+  width: calc(var(--width) - var(--gutter));
+}
+
+.grid .column.width_12, .grid .col.width_12 {
+  --col-span: 12;
+  --width: calc(( var(--col-span) / var(--num-columns) ) * 100% );
+  width: calc(var(--width) - var(--gutter));
+}

@@ -1,0 +1,11 @@
+@import '../../layout/grail.css';
+
+.notification, notification {
+  display: flex;
+  justify-content: space-between;
+  font-size: --body-font-size;
+  line-height: 1.4;
+  border-radius: var(--border-radius);
+  border: solid 1px;
+  height: var(--notification-height);
+}

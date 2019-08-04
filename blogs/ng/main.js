@@ -204,7 +204,7 @@ var AppModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\n    <div class=\"card\">\n      <h2>Blog Post</h2>\n    </div>\n\n    <div *ngIf=\"(post$ | async) as post; else loading\">\n\n      <div class=\"card\">\n        <h3>{{post.title}}</h3>\n        <p>{{post.summary}}</p>\n      </div>\n    </div>\n\n    <ng-template #loading>\n      Loading stuff...\n    </ng-template>\n  </div>\n"
+module.exports = "<div class=\"container\">\n    <div class=\"card\">\n      <h2>Blog Post</h2>\n    </div>\n\n    <div *ngIf=\"(post$ | async) as post; else loading\">\n\n      <div class=\"card\">\n        <h3>{{post.title}}</h3>\n        <p [innerHTML]=\"post.content\"></p>\n      </div>\n    </div>\n\n    <ng-template #loading>\n      Loading stuff...\n    </ng-template>\n  </div>\n"
 
 /***/ }),
 

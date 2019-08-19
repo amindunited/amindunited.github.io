@@ -11,5 +11,6 @@
 |  [Deck Builder](deck-builder)              |  Custom List                |  Feb 27 2017  |
 |  [Custom Frameworks](custom-frameworks)    |  Blog about methods         |  ¯\_(ツ)_/¯   |
 |  [Electron](electron-apps)                 |  Blog about methods         |  ¯\_(ツ)_/¯   |
+|  [Planning and Management](planning-and-management)  |  Collate Ideas    |  ¯\_(ツ)_/¯   |
 
 

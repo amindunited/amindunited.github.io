@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="/main.css"/>
+
 # Concurrently and Wait On
 
 August 2, 2019

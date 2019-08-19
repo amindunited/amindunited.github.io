@@ -1,4 +1,6 @@
-# Research and Personal Projects
+<link rel="stylesheet" href="/main.css"/>
 
-# Games & Fun
+## Research and Personal Projects
+
+## Games & Fun
 [Battle Bluff](battle-bluff)

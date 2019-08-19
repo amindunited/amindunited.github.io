@@ -1,4 +1,4 @@
- 
+<link rel="stylesheet" href="/main.css"/>
 
 Created: June 24, 2018
 
@@ -6,7 +6,7 @@ Created: June 24, 2018
 
 Common Create Command
 
-# Assuming you have an existing project/dir:
+## Assuming you have an existing project/dir:
 cd my-app
 ng new my-app --routing --style=scss --directory ./
 

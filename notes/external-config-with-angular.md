@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="/main.css"/>
+
 # External Config in Angular
 
 July 24 2019

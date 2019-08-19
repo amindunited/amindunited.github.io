@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="/main.css"/>
+
 # Nightwatch VRT Setup
 
 August 1, 2019

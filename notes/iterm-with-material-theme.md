@@ -1,4 +1,5 @@
- 
+<link rel="stylesheet" href="/main.css"/>
+
 # iterm, with zsh and Material Theme
 
 June 11, 2019

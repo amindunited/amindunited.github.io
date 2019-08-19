@@ -3,14 +3,14 @@ const amuNPMModules = [
     "package": {
       "name": "@amindunited/utils",
       "scope": "amindunited",
-      "version": "0.0.13",
+      "version": "0.0.14",
       "description": "A collection of javascript utility functions",
       "keywords": [
         "Utility",
         "Javascript",
         "utils"
       ],
-      "date": "2019-01-07T03:47:51.736Z",
+      "date": "2019-07-31T04:59:29.391Z",
       "links": {
         "npm": "https://www.npmjs.com/package/%40amindunited%2Futils",
         "homepage": "https://github.com/amindunited/utils#readme",
@@ -35,14 +35,14 @@ const amuNPMModules = [
       "unstable": true
     },
     "score": {
-      "final": 0.5716827496147887,
+      "final": 0.565302149454028,
       "detail": {
-        "quality": 0.6888917295077475,
-        "popularity": 0.04706636336362016,
-        "maintenance": 0.9958342959577071
+        "quality": 0.6752475114186638,
+        "popularity": 0.042226949165454775,
+        "maintenance": 0.9941384680586278
       }
     },
-    "searchScore": 0.00019067955
+    "searchScore": 0.023424575
   },
   {
     "package": {
@@ -84,14 +84,55 @@ const amuNPMModules = [
       "unstable": true
     },
     "score": {
-      "final": 0.5689779874056002,
+      "final": 0.5106053488452854,
       "detail": {
-        "quality": 0.6925909071241196,
-        "popularity": 0.04191225253434731,
-        "maintenance": 0.990089791089551
+        "quality": 0.6960183485265554,
+        "popularity": 0.0365755699842527,
+        "maintenance": 0.8257096994080867
       }
     },
-    "searchScore": 0.0001386977
+    "searchScore": 0.00536413
+  },
+  {
+    "package": {
+      "name": "@amindunited/npm-cli-login",
+      "scope": "amindunited",
+      "version": "0.2.0",
+      "description": "Allows you to log in to NPM without STDIN, STDOUT. Use in places like CI build systems. Also creates/modifies entries in the ~/.npmrc file for authentication.",
+      "date": "2019-05-08T01:50:46.297Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/%40amindunited%2Fnpm-cli-login",
+        "homepage": "https://github.com/postmanlabs/npm-cli-login#readme",
+        "repository": "https://github.com/postmanlabs/npm-cli-login",
+        "bugs": "https://github.com/postmanlabs/npm-cli-login/issues"
+      },
+      "author": {
+        "name": "Postman Team",
+        "email": "help@getpostman.com"
+      },
+      "publisher": {
+        "username": "amindunited",
+        "email": "buckley.robin@gmail.com"
+      },
+      "maintainers": [
+        {
+          "username": "amindunited",
+          "email": "buckley.robin@gmail.com"
+        }
+      ]
+    },
+    "flags": {
+      "unstable": true
+    },
+    "score": {
+      "final": 0.48989257034092093,
+      "detail": {
+        "quality": 0.8387708297047093,
+        "popularity": 0.06217054221295057,
+        "maintenance": 0.6185760904427872
+      }
+    },
+    "searchScore": 0.0036413248
   },
   {
     "package": {
@@ -132,60 +173,14 @@ const amuNPMModules = [
       "unstable": true
     },
     "score": {
-      "final": 0.5577596113924923,
+      "final": 0.4832361816728604,
       "detail": {
-        "quality": 0.6572371134550925,
-        "popularity": 0.05057106276866742,
-        "maintenance": 0.9796817296769456
+        "quality": 0.661345008734872,
+        "popularity": 0.04540144478071056,
+        "maintenance": 0.7684062096547146
       }
     },
-    "searchScore": 0.00010651184
-  },
-  {
-    "package": {
-      "name": "@amindunited/revision-hash",
-      "scope": "amindunited",
-      "version": "0.0.0",
-      "description": "Creates an MD5 hash of a given string and returns the first 10 characters",
-      "keywords": [
-        "MD5",
-        "cache-busting",
-        "cache",
-        "hash"
-      ],
-      "date": "2018-11-26T06:08:52.802Z",
-      "links": {
-        "npm": "https://www.npmjs.com/package/%40amindunited%2Frevision-hash",
-        "homepage": "https://github.com/amindunited/revision-hash#readme",
-        "repository": "https://github.com/amindunited/revision-hash",
-        "bugs": "https://github.com/amindunited/revision-hash/issues"
-      },
-      "author": {
-        "name": "amindunited"
-      },
-      "publisher": {
-        "username": "amindunited",
-        "email": "buckley.robin@gmail.com"
-      },
-      "maintainers": [
-        {
-          "username": "amindunited",
-          "email": "buckley.robin@gmail.com"
-        }
-      ]
-    },
-    "flags": {
-      "unstable": true
-    },
-    "score": {
-      "final": 0.5567822352129799,
-      "detail": {
-        "quality": 0.6999313182032951,
-        "popularity": 0.04164981146270916,
-        "maintenance": 0.949215444971552
-      }
-    },
-    "searchScore": 0.000100884004
+    "searchScore": 0.0027051747
   },
   {
     "package": {
@@ -225,33 +220,33 @@ const amuNPMModules = [
       "unstable": true
     },
     "score": {
-      "final": 0.5465455705083738,
+      "final": 0.4650446281655357,
       "detail": {
-        "quality": 0.6960216626707922,
-        "popularity": 0.04579943190445909,
-        "maintenance": 0.9191693444016442
+        "quality": 0.6998989210648396,
+        "popularity": 0.038950370652075905,
+        "maintenance": 0.6898352060510209
       }
     },
-    "searchScore": 0.000097882796
+    "searchScore": 0.0018387093
   },
   {
     "package": {
-      "name": "@amindunited/git-info",
+      "name": "@amindunited/revision-hash",
       "scope": "amindunited",
       "version": "0.0.0",
-      "description": "A function that returns info about the current git repository",
+      "description": "Creates an MD5 hash of a given string and returns the first 10 characters",
       "keywords": [
-        "Git",
-        "repo",
-        "info",
-        "information"
+        "MD5",
+        "cache-busting",
+        "cache",
+        "hash"
       ],
-      "date": "2018-12-20T00:41:02.334Z",
+      "date": "2018-11-26T06:08:52.802Z",
       "links": {
-        "npm": "https://www.npmjs.com/package/%40amindunited%2Fgit-info",
-        "homepage": "https://github.com/amindunited/git-info#readme",
-        "repository": "https://github.com/amindunited/git-info",
-        "bugs": "https://github.com/amindunited/git-info/issues"
+        "npm": "https://www.npmjs.com/package/%40amindunited%2Frevision-hash",
+        "homepage": "https://github.com/amindunited/revision-hash#readme",
+        "repository": "https://github.com/amindunited/revision-hash",
+        "bugs": "https://github.com/amindunited/revision-hash/issues"
       },
       "author": {
         "name": "amindunited"
@@ -271,14 +266,14 @@ const amuNPMModules = [
       "unstable": true
     },
     "score": {
-      "final": 0.549030626037363,
+      "final": 0.4678192138029572,
       "detail": {
-        "quality": 0.6744545881930136,
-        "popularity": 0.041339553826902124,
-        "maintenance": 0.949215444971552
+        "quality": 0.7034231468893166,
+        "popularity": 0.03353755562103852,
+        "maintenance": 0.7001546436251392
       }
     },
-    "searchScore": 0.00008095242
+    "searchScore": 0.0016970277
   },
   {
     "package": {
@@ -317,14 +312,14 @@ const amuNPMModules = [
       "unstable": true
     },
     "score": {
-      "final": 0.5457945636896229,
+      "final": 0.46453059936341695,
       "detail": {
-        "quality": 0.6936861650630041,
-        "popularity": 0.04565555322898895,
-        "maintenance": 0.9191693444016442
+        "quality": 0.6971240997526237,
+        "popularity": 0.03986013519935019,
+        "maintenance": 0.6898352060510209
       }
     },
-    "searchScore": 0.000076594944
+    "searchScore": 0.0015994149
   },
   {
     "package": {
@@ -364,14 +359,14 @@ const amuNPMModules = [
       "unstable": true
     },
     "score": {
-      "final": 0.5453447734946294,
+      "final": 0.46348778035763366,
       "detail": {
-        "quality": 0.6909431436254945,
-        "popularity": 0.04672159961830176,
-        "maintenance": 0.9191693444016442
+        "quality": 0.6943542404384848,
+        "popularity": 0.0392548174520884,
+        "maintenance": 0.6898352060510209
       }
     },
-    "searchScore": 0.00007601303
+    "searchScore": 0.001546281
   },
   {
     "package": {
@@ -411,14 +406,60 @@ const amuNPMModules = [
       "unstable": true
     },
     "score": {
-      "final": 0.5442514460019909,
+      "final": 0.46204316141041746,
       "detail": {
-        "quality": 0.6867989271442236,
-        "popularity": 0.047149992337566934,
-        "maintenance": 0.9191693444016442
+        "quality": 0.6901660618424772,
+        "popularity": 0.03871720211376285,
+        "maintenance": 0.6898352060510209
       }
     },
-    "searchScore": 0.00007383124
+    "searchScore": 0.0015250151
+  },
+  {
+    "package": {
+      "name": "@amindunited/git-info",
+      "scope": "amindunited",
+      "version": "0.0.0",
+      "description": "A function that returns info about the current git repository",
+      "keywords": [
+        "Git",
+        "repo",
+        "info",
+        "information"
+      ],
+      "date": "2018-12-20T00:41:02.334Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/%40amindunited%2Fgit-info",
+        "homepage": "https://github.com/amindunited/git-info#readme",
+        "repository": "https://github.com/amindunited/git-info",
+        "bugs": "https://github.com/amindunited/git-info/issues"
+      },
+      "author": {
+        "name": "amindunited"
+      },
+      "publisher": {
+        "username": "amindunited",
+        "email": "buckley.robin@gmail.com"
+      },
+      "maintainers": [
+        {
+          "username": "amindunited",
+          "email": "buckley.robin@gmail.com"
+        }
+      ]
+    },
+    "flags": {
+      "unstable": true
+    },
+    "score": {
+      "final": 0.4607180071180761,
+      "detail": {
+        "quality": 0.6776688584771933,
+        "popularity": 0.035323498017483954,
+        "maintenance": 0.7001546436251392
+      }
+    },
+    "searchScore": 0.0014330576
   },
   {
     "package": {
@@ -458,14 +499,14 @@ const amuNPMModules = [
       "unstable": true
     },
     "score": {
-      "final": 0.5435977327010408,
+      "final": 0.46147587807536894,
       "detail": {
-        "quality": 0.6909431436254945,
-        "popularity": 0.04173005449376301,
-        "maintenance": 0.9191693444016442
+        "quality": 0.6943542404384848,
+        "popularity": 0.033506525217046335,
+        "maintenance": 0.6898352060510209
       }
     },
-    "searchScore": 0.000070565366
+    "searchScore": 0.0014150705
   },
   {
     "package": {
@@ -504,14 +545,14 @@ const amuNPMModules = [
       "unstable": true
     },
     "score": {
-      "final": 0.5431572739091426,
+      "final": 0.46115283943817303,
       "detail": {
-        "quality": 0.6898414403223065,
-        "popularity": 0.041415917919643525,
-        "maintenance": 0.9191693444016442
+        "quality": 0.6932412428431742,
+        "popularity": 0.03353755562103852,
+        "maintenance": 0.6898352060510209
       }
     },
-    "searchScore": 0.000069572416
+    "searchScore": 0.0014017739
   },
   {
     "package": {
@@ -550,101 +591,14 @@ const amuNPMModules = [
       "unstable": true
     },
     "score": {
-      "final": 0.5425888341241679,
+      "final": 0.4606610971956914,
       "detail": {
-        "quality": 0.6881841903786927,
-        "popularity": 0.04121230419995614,
-        "maintenance": 0.9191693444016442
+        "quality": 0.6915664636737999,
+        "popularity": 0.0335681027876976,
+        "maintenance": 0.6898352060510209
       }
     },
-    "searchScore": 0.000068378016
-  },
-  {
-    "package": {
-      "name": "@amindunited/node-package-boilerplate",
-      "scope": "amindunited",
-      "version": "0.0.8",
-      "description": "A script that will install libs and write files that are common to my node module projects",
-      "date": "2019-01-10T06:11:25.861Z",
-      "links": {
-        "npm": "https://www.npmjs.com/package/%40amindunited%2Fnode-package-boilerplate",
-        "homepage": "https://github.com/amindunited/node-package-boilerplate#readme",
-        "repository": "https://github.com/amindunited/node-package-boilerplate",
-        "bugs": "https://github.com/amindunited/node-package-boilerplate/issues"
-      },
-      "author": {
-        "name": "amindunited"
-      },
-      "publisher": {
-        "username": "amindunited",
-        "email": "buckley.robin@gmail.com"
-      },
-      "maintainers": [
-        {
-          "username": "amindunited",
-          "email": "buckley.robin@gmail.com"
-        }
-      ]
-    },
-    "flags": {
-      "unstable": true
-    },
-    "score": {
-      "final": 0.5400409319404591,
-      "detail": {
-        "quality": 0.6453375796906882,
-        "popularity": 0.024912566840649967,
-        "maintenance": 0.964915027540072
-      }
-    },
-    "searchScore": 0.00005720001
-  },
-  {
-    "package": {
-      "name": "@amindunited/recursive-read-directory",
-      "scope": "amindunited",
-      "version": "0.0.0",
-      "description": "Recursively list the contents of a given directory",
-      "keywords": [
-        "Recurse",
-        "Recursive",
-        "Directory",
-        "List",
-        "Promise"
-      ],
-      "date": "2018-12-11T06:20:46.878Z",
-      "links": {
-        "npm": "https://www.npmjs.com/package/%40amindunited%2Frecursive-read-directory",
-        "homepage": "https://github.com/amindunited/recursive-read-directory#readme",
-        "repository": "https://github.com/amindunited/recursive-read-directory",
-        "bugs": "https://github.com/amindunited/recursive-read-directory/issues"
-      },
-      "author": {
-        "name": "amindunited"
-      },
-      "publisher": {
-        "username": "amindunited",
-        "email": "buckley.robin@gmail.com"
-      },
-      "maintainers": [
-        {
-          "username": "amindunited",
-          "email": "buckley.robin@gmail.com"
-        }
-      ]
-    },
-    "flags": {
-      "unstable": true
-    },
-    "score": {
-      "final": 0.5343708384092752,
-      "detail": {
-        "quality": 0.6605108936587953,
-        "popularity": 0.04145228506017487,
-        "maintenance": 0.9191693444016442
-      }
-    },
-    "searchScore": 0.00005396728
+    "searchScore": 0.0013816378
   },
   {
     "package": {
@@ -684,14 +638,186 @@ const amuNPMModules = [
       "unstable": true
     },
     "score": {
-      "final": 0.5329698565257541,
+      "final": 0.4518038421021932,
       "detail": {
-        "quality": 0.6572371134550925,
-        "popularity": 0.04025557699614558,
-        "maintenance": 0.9191693444016442
+        "quality": 0.661345008734872,
+        "popularity": 0.03416576389678376,
+        "maintenance": 0.6898352060510209
       }
     },
-    "searchScore": 0.00005149424
+    "searchScore": 0.0010620615
+  },
+  {
+    "package": {
+      "name": "@amindunited/recursive-read-directory",
+      "scope": "amindunited",
+      "version": "0.0.0",
+      "description": "Recursively list the contents of a given directory",
+      "keywords": [
+        "Recurse",
+        "Recursive",
+        "Directory",
+        "List",
+        "Promise"
+      ],
+      "date": "2018-12-11T06:20:46.878Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/%40amindunited%2Frecursive-read-directory",
+        "homepage": "https://github.com/amindunited/recursive-read-directory#readme",
+        "repository": "https://github.com/amindunited/recursive-read-directory",
+        "bugs": "https://github.com/amindunited/recursive-read-directory/issues"
+      },
+      "author": {
+        "name": "amindunited"
+      },
+      "publisher": {
+        "username": "amindunited",
+        "email": "buckley.robin@gmail.com"
+      },
+      "maintainers": [
+        {
+          "username": "amindunited",
+          "email": "buckley.robin@gmail.com"
+        }
+      ]
+    },
+    "flags": {
+      "unstable": true
+    },
+    "score": {
+      "final": 0.4531843079381845,
+      "detail": {
+        "quality": 0.6646487918268029,
+        "popularity": 0.03527813792081802,
+        "maintenance": 0.6898352060510209
+      }
+    },
+    "searchScore": 0.000996766
+  },
+  {
+    "package": {
+      "name": "@amindunited/is-uri-encoded",
+      "scope": "amindunited",
+      "version": "0.0.1",
+      "description": "Checks if given string has been URI Encoded",
+      "keywords": [
+        "String",
+        "URI",
+        "URIEncode",
+        "encoding"
+      ],
+      "date": "2019-07-31T03:58:10.054Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/%40amindunited%2Fis-uri-encoded",
+        "homepage": "https://github.com/amindunited/is-uri-encoded#readme",
+        "repository": "https://github.com/amindunited/is-uri-encoded",
+        "bugs": "https://github.com/amindunited/is-uri-encoded/issues"
+      },
+      "author": {
+        "name": "Robin Buckley"
+      },
+      "publisher": {
+        "username": "amindunited",
+        "email": "buckley.robin@gmail.com"
+      },
+      "maintainers": [
+        {
+          "username": "amindunited",
+          "email": "buckley.robin@gmail.com"
+        }
+      ]
+    },
+    "flags": {
+      "unstable": true
+    },
+    "score": {
+      "final": 0.44554571678397187,
+      "detail": {
+        "quality": 0.6949096668728392,
+        "popularity": 0.014734773458157597,
+        "maintenance": 0.6626161314621857
+      }
+    },
+    "searchScore": 0.00076769834
+  },
+  {
+    "package": {
+      "name": "@amindunited/amu-project-scaf",
+      "scope": "amindunited",
+      "version": "0.0.3",
+      "date": "2019-04-04T05:12:08.261Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/%40amindunited%2Famu-project-scaf",
+        "homepage": "https://github.com/amindunited/amu-project-scaf#readme",
+        "repository": "https://github.com/amindunited/amu-project-scaf",
+        "bugs": "https://github.com/amindunited/amu-project-scaf/issues"
+      },
+      "author": {
+        "name": "Robin Buckley"
+      },
+      "publisher": {
+        "username": "amindunited",
+        "email": "buckley.robin@gmail.com"
+      },
+      "maintainers": [
+        {
+          "username": "amindunited",
+          "email": "buckley.robin@gmail.com"
+        }
+      ]
+    },
+    "flags": {
+      "unstable": true
+    },
+    "score": {
+      "final": 0.44838324321595757,
+      "detail": {
+        "quality": 0.3127277536772115,
+        "popularity": 0.017031284821959574,
+        "maintenance": 0.9960113355003094
+      }
+    },
+    "searchScore": 0.00067773694
+  },
+  {
+    "package": {
+      "name": "@amindunited/node-package-boilerplate",
+      "scope": "amindunited",
+      "version": "0.0.8",
+      "description": "A script that will install libs and write files that are common to my node module projects",
+      "date": "2019-01-10T06:11:25.861Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/%40amindunited%2Fnode-package-boilerplate",
+        "homepage": "https://github.com/amindunited/node-package-boilerplate#readme",
+        "repository": "https://github.com/amindunited/node-package-boilerplate",
+        "bugs": "https://github.com/amindunited/node-package-boilerplate/issues"
+      },
+      "author": {
+        "name": "amindunited"
+      },
+      "publisher": {
+        "username": "amindunited",
+        "email": "buckley.robin@gmail.com"
+      },
+      "maintainers": [
+        {
+          "username": "amindunited",
+          "email": "buckley.robin@gmail.com"
+        }
+      ]
+    },
+    "flags": {
+      "unstable": true
+    },
+    "score": {
+      "final": 0.4074377340428957,
+      "detail": {
+        "quality": 0.6039376335935968,
+        "popularity": 0.01851361246235893,
+        "maintenance": 0.6279333702942602
+      }
+    },
+    "searchScore": 0.00021854392
   },
   {
     "package": {
@@ -729,14 +855,14 @@ const amuNPMModules = [
       "unstable": true
     },
     "score": {
-      "final": 0.3952161677117425,
+      "final": 0.32560733416034676,
       "detail": {
-        "quality": 0.6917677504596498,
-        "popularity": 0.04023328434488352,
-        "maintenance": 0.4960119801518239
+        "quality": 0.6951871096837017,
+        "popularity": 0.035747712459939227,
+        "maintenance": 0.2986842911264501
       }
     },
-    "searchScore": 6.50432e-7
+    "searchScore": 0.00001484428
   },
   {
     "package": {
@@ -774,157 +900,13 @@ const amuNPMModules = [
       "unstable": true
     },
     "score": {
-      "final": 0.3843968106607364,
+      "final": 0.29581131143417294,
       "detail": {
-        "quality": 0.7058160379511464,
-        "popularity": 0.039986462309237636,
-        "maintenance": 0.45330496419188376
+        "quality": 0.7093487382882218,
+        "popularity": 0.03407712405187131,
+        "maintenance": 0.20308484722728992
       }
     },
-    "searchScore": 4.3714024e-7
-  },
-  {
-    "package": {
-      "name": "@amindunited/to-snake-case",
-      "scope": "amindunited",
-      "version": "0.0.0",
-      "description": "Accepts a, Title Case, camel Case or dash separated string and returns a copy separated by underscores.",
-      "keywords": [
-        "Javascript",
-        "String",
-        "Snake",
-        "Underscore",
-        "Case",
-        "SnakeCase",
-        "Snek"
-      ],
-      "date": "2018-10-19T00:01:47.515Z",
-      "links": {
-        "npm": "https://www.npmjs.com/package/%40amindunited%2Fto-snake-case",
-        "homepage": "https://github.com/amindunited/to-snake-case#readme",
-        "repository": "https://github.com/amindunited/to-snake-case",
-        "bugs": "https://github.com/amindunited/to-snake-case/issues"
-      },
-      "author": {
-        "name": "amindunited"
-      },
-      "publisher": {
-        "username": "amindunited",
-        "email": "buckley.robin@gmail.com"
-      },
-      "maintainers": [
-        {
-          "username": "amindunited",
-          "email": "buckley.robin@gmail.com"
-        }
-      ]
-    },
-    "flags": {
-      "unstable": true
-    },
-    "score": {
-      "final": 0.3805706825807126,
-      "detail": {
-        "quality": 0.6715032122475468,
-        "popularity": 0.04051672793316211,
-        "maintenance": 0.47125389751383384
-      }
-    },
-    "searchScore": 3.7126154e-7
-  },
-  {
-    "package": {
-      "name": "@amindunited/to-title-case",
-      "scope": "amindunited",
-      "version": "0.0.0",
-      "description": "Accepts an underscore or dash separated string and returns a copy separated by underscores.",
-      "keywords": [
-        "Title",
-        "Case",
-        "titlecase",
-        "String",
-        "Javscript"
-      ],
-      "date": "2018-10-20T09:24:58.414Z",
-      "links": {
-        "npm": "https://www.npmjs.com/package/%40amindunited%2Fto-title-case",
-        "homepage": "https://github.com/amindunited/to-title-case#readme",
-        "repository": "https://github.com/amindunited/to-title-case",
-        "bugs": "https://github.com/amindunited/to-title-case/issues"
-      },
-      "author": {
-        "name": "amindunited"
-      },
-      "publisher": {
-        "username": "amindunited",
-        "email": "buckley.robin@gmail.com"
-      },
-      "maintainers": [
-        {
-          "username": "amindunited",
-          "email": "buckley.robin@gmail.com"
-        }
-      ]
-    },
-    "flags": {
-      "unstable": true
-    },
-    "score": {
-      "final": 0.37936071438386776,
-      "detail": {
-        "quality": 0.6683183815943299,
-        "popularity": 0.039789530787791245,
-        "maintenance": 0.47125389751383384
-      }
-    },
-    "searchScore": 3.5174935e-7
-  },
-  {
-    "package": {
-      "name": "@amindunited/ensure-path",
-      "scope": "amindunited",
-      "version": "0.0.0",
-      "description": "Creates all directories needed for a path",
-      "keywords": [
-        "Ensure",
-        "path",
-        "directories",
-        "directory",
-        "node",
-        "Javascript"
-      ],
-      "date": "2018-11-08T04:52:57.190Z",
-      "links": {
-        "npm": "https://www.npmjs.com/package/%40amindunited%2Fensure-path",
-        "homepage": "https://github.com/amindunited/ensure-path#readme",
-        "repository": "https://github.com/amindunited/ensure-path",
-        "bugs": "https://github.com/amindunited/ensure-path/issues"
-      },
-      "author": {
-        "name": "amindunited"
-      },
-      "publisher": {
-        "username": "amindunited",
-        "email": "buckley.robin@gmail.com"
-      },
-      "maintainers": [
-        {
-          "username": "amindunited",
-          "email": "buckley.robin@gmail.com"
-        }
-      ]
-    },
-    "flags": {
-      "unstable": true
-    },
-    "score": {
-      "final": 0.15815516351253894,
-      "detail": {
-        "quality": 0.10509370752204265,
-        "popularity": 0.03123221548084644,
-        "maintenance": 0.3305593595360854
-      }
-    },
-    "searchScore": 5.422189e-13
+    "searchScore": 0.0000043561568
   }
 ]

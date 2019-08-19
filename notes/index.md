@@ -1,4 +1,5 @@
-# Notes
+(setq markdown-css-paths '("/main.css"))
+## Notes
 
 [iTern (zsh) with Material Theme](./iterm-with-material-theme) - Created: June 27, 2019
 
@@ -10,4 +11,4 @@
 
 [Concurrently and Wait on](concurrently-and-wait-on) - Created: August 2, 2019
 
-## [My Personal Research and unfinished Projects](../research)
+### [My Personal Research and unfinished Projects](../research)

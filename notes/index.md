@@ -1,4 +1,4 @@
-<link rel="stlyesheet" url="/main.css"/>
+<link rel="stylesheet" url="/main.css"/>
 ## Notes
 
 [iTern (zsh) with Material Theme](./iterm-with-material-theme) - Created: June 27, 2019

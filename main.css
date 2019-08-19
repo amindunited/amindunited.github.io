@@ -42,5 +42,16 @@ li { list-style: none; padding: 0; margin: 0; }
 }
 
 .markdown-body {
+  /* Copied and pasted from ./styles/layout/card.css */
+  --padding-vertical: 2;
+  --padding-horizontal: 2;
+  --margin-bottom: 2;
+
+  margin-bottom: calc(var(--base-measure) * var(--margin-bottom));
+  padding: calc(var(--base-measure) * var(--padding-vertical)) calc(var(--base-measure) * var(--padding-vertical));
+  height: auto;
+  width: auto;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 0 2px 0 rgba(0, 0, 0, 0.06);
+  border-radius: var(--border-radius);
   background-color: white;
 }

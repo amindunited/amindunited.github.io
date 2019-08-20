@@ -12,5 +12,6 @@
 |  [Custom Frameworks](custom-frameworks)    |  Blog about methods         |  ¯\_(ツ)_/¯   |
 |  [Electron](electron-apps)                 |  Blog about methods         |  ¯\_(ツ)_/¯   |
 |  [Planning and Management](planning-and-management)  |  Collate Ideas    |  ¯\_(ツ)_/¯   |
+|  [Stub Servers](stub-servers)  |  Collate Ideas    |  ¯\_(ツ)_/¯   |
 
 

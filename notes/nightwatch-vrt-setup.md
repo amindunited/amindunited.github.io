@@ -88,7 +88,7 @@ Create a visual-regression directory in your project root
 
 ```javascript
 
-mkdir visual-regression && cd $_ && mkdir commands && mkdir screens && mkdir tests
+mkdir visual-regression && cd $_ && mkdir commands && mkdir screens && mkdir screens/diff && mkdir screens/baseline && mkdir screens/latest && mkdir tests
 
 ```
 
@@ -164,17 +164,17 @@ function TestIndexPage() {
   EventEmitter.call(this);
 }
 
-util.inherits(testIndexPage, EventEmitter);
+util.inherits(TestIndexPage, EventEmitter);
 
 TestIndexPage.prototype.command = function(screenWidth, browserName, cb) {
   browser = this;
   if (!screenWidth || !browserName) {
     return browser;
   }
+  // Replace '.my-element' with a reference for your page
+  browser.api.waitForElementPresent('.my-element', 10000);
   browser.api.resizeWindow(screenWidth, 1080)
-    .pause(1000)
-    // Example:
-    // get querySelect('body'), screenshotname, {...options}
+    .pause(3000)
     .verify.screenshotIdenticalToBaseline('body', `${screenWidth}/body/${browserName}`, {threshold: 0.05})
 
   setTimeout(function() {
@@ -204,10 +204,10 @@ let config = require('../../nightwatch.conf.js');
 
 module.exports = { // adapted from: https://git.io/vodU0
   'All Components page': function(browser) {
-    browser.url('http://localhost:4200/')
-      .testAllComponentsPage(320, browser.capabilities.browserName)
-      .testAllComponentsPage(600, browser.capabilities.browserName)
-      .testAllComponentsPage(1080, browser.capabilities.browserName)
+    browser.url('http://localhost:8080/')
+      .testIndexPage(320, browser.capabilities.browserName)
+      .testIndexPage(600, browser.capabilities.browserName)
+      .testIndexPage(1080, browser.capabilities.browserName)
       .end();
   }
 }

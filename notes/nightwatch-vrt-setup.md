@@ -30,7 +30,7 @@ Create a config for Nightwatch:
 
 
 ```
-cat nightWatch.conf.js <<EOL
+touch nightWatch.conf.js && cat nightWatch.conf.js <<EOL
 const SCREENSHOT_PATH = './visual-regression/screens/';
 
 // we use a nightwatch.conf.js file so we can include comments and helper functions
@@ -94,8 +94,10 @@ mkdir visual-regression && cd $_ && mkdir commands && mkdir screens && mkdir tes
 
 Add a utils script
 
+(still in the visual-regression directory)
+
 ```
-cat utils <<EOL
+touch utils.js && cat utils.js <<EOL
 module.exports =  {
   globalThreshold: 0.001,
   getBrowser(config) {
@@ -113,8 +115,10 @@ EOL
 
 Setup Globals
 
+(still in the visual-regression directory)
+
 ```
-cat nightwatchGlobals.js <<EOL
+touch nightwatchGlobals.js && cat nightwatchGlobals.js <<EOL
 module.exports =  {
   // before : function(cb) {
   //   console.log('GLOBAL BEFORE')
@@ -146,9 +150,13 @@ EOL
 
 Create some example commands:
 
+(still in the visual-regression directory)
+
+** also this cat command doesn't work :(
+
 ```
 
-cat commands/testIndexPage.js <<EOL
+touch commands/testIndexPage.js && cat commands/testIndexPage.js <<EOL
 var util = require('util');
 var EventEmitter = require('events');
 

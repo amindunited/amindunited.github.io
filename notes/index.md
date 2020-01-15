@@ -12,6 +12,7 @@
 
 [Concurrently and Wait on](concurrently-and-wait-on) - Created: August 2, 2019
 
+[Setup Developers Mac](setup-developers-mac) - Created: Jan 15, 2020
 
 ### [My Personal Research and unfinished Projects](../research)
 

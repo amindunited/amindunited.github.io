@@ -49,9 +49,7 @@ Here are a few notes to help speed up installing some useful tools 
     sudo chown -R $USER:$GROUP ~/.npm
     ```
 	
-	Node version management: See Managing Node Version.
-
-4. iTerm (if you want it...but you do) [https://iterm2.com/](https://iterm2.com/)
+4. Node version management: (see Node version management AFTER points 5, and 6)
 
 5. add git highlighting to the terminal:
 
@@ -119,10 +117,17 @@ if you are NOT going to follow 'iterm, with zsh and Material Theme' add the foll
     
     ```
 
-restart your terminal
+6. iTerm (if you want it...but you do) [https://iterm2.com/](https://iterm2.com/)
 
+    Then you can make iTerm awesome:
 
-6. [iterm, with zsh and Material Theme](./iterm-with-material-theme.md)
+    [iterm, with zsh and Material Theme](./iterm-with-material-theme.md)
+
+7. Node Version Management
+
+    [Install Node version manager](https://github.com/nvm-sh/nvm#installing-and-updating)
+
+    [Auto Version NVM](https://github.com/nvm-sh/nvm#zsh)
 
 ### Code Tools
 
@@ -148,3 +153,6 @@ restart your terminal
     ** To install commandline tools
 
     ![Install sourcetree CMD from menu](./assets/images/install_sourcetree_cmd_tools.png "Install sourcetree CMD Tools from menu")
+
+
+

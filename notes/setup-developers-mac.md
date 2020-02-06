@@ -147,4 +147,4 @@ restart your terminal
 
     ** To install commandline tools
 
-        ![Install sourcetree CMD from menu](./assets/images/install_sourcetree_cmd_tools.png "Install sourcetree CMD Tools from menu")
+      ![Install sourcetree CMD from menu](./assets/images/install_sourcetree_cmd_tools.png "Install sourcetree CMD Tools from menu")

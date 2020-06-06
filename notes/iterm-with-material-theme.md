@@ -136,6 +136,7 @@ In vscode settings:
   // If you use other fonts
   // add them in quotes: "'Source Code Pro for Powerline', 'Hack Nerd Font', 'MesloLGS NF'"
   "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
+  "terminal.integrated.fontSize": 12,
   "terminal.integrated.lineHeight": 1.3, // adjust LineHeight ass you see fit
   "terminal.integrated.shell.osx": "/bin/zsh",
 ```

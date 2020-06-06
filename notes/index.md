@@ -20,6 +20,8 @@
 
 [My Current VS Code Settings](my-current-vscode-settings) - Created: June 06, 2020
 
+[My Current ZSH Settings](my-current-zsh-settings) - Created: June 06, 2020
+
 ### [My Personal Research and unfinished Projects](../research)
 
 

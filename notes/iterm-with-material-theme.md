@@ -110,8 +110,37 @@ load-nvmrc
 [awesome zsh plugins]('https://github.com/unixorn/awesome-zsh-plugins#plugins')
 
 
+## Add zsh to vsCode
 
 
+#### Update vscode’s terminal to zsh
+
+
+In vscode settings:
+
+```
+"terminal.integrated.shell.osx": "/bin/zsh"
+```
+
+Source:
+[Update vscode’s terminal to zsh](https://medium.com/fbdevclagos/updating-visual-studio-code-default-terminal-shell-from-bash-to-zsh-711c40d6f8dc)
+
+
+
+#### oh my zsh + powerline fonts in vscode
+
+
+In vscode settings:
+
+```
+  // If you use other fonts
+  // add them in quotes: "'Source Code Pro for Powerline', 'Hack Nerd Font', 'MesloLGS NF'"
+  "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
+  "terminal.integrated.lineHeight": 1.3, // adjust LineHeight ass you see fit
+  "terminal.integrated.shell.osx": "/bin/zsh",
+```
+
+Source: [oh my zsh + powerline fonts in vscode](https://gist.github.com/480/3b41f449686a089f34edb45d00672f28)
 
 ### References:
 

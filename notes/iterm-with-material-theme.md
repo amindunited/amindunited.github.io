@@ -129,16 +129,37 @@ Source:
 
 #### oh my zsh + powerline fonts in vscode
 
+To install Roboto Nerd Font:
+
+  ```
+  brew tap homebrew/cask-fonts && brew cask install font-robotomono-nerd-font
+  ```
+
 
 In vscode settings:
 
 ```
-  // If you use other fonts
-  // add them in quotes: "'Source Code Pro for Powerline', 'Hack Nerd Font', 'MesloLGS NF'"
-  "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
-  "terminal.integrated.fontSize": 12,
-  "terminal.integrated.lineHeight": 1.3, // adjust LineHeight ass you see fit
+  // Use iterm as external terminal
+  "terminal.external.osxExec": "iterm.app",
+
+  // Use zsh as terminal
   "terminal.integrated.shell.osx": "/bin/zsh",
+
+  // If you use other fonts
+  // add them in quotes:
+  // "'Source Code Pro for Powerline', 'Hack Nerd Font', 'MesloLGS NF'"
+  "editor.fontFamily": "RobotoMono Nerd Font",
+  "terminal.integrated.fontFamily": "RobotoMono Nerd Font",
+
+  // "dom" Renders better/faster
+  "terminal.integrated.rendererType": "dom",
+  "terminal.integrated.fontSize": 12,
+
+  // Any other line height throws off glyphs ¯\_(ツ)_/¯
+  "terminal.integrated.lineHeight": 1,
+
+  "terminal.integrated.fontWeight": "normal",
+  
 ```
 
 Source: [oh my zsh + powerline fonts in vscode](https://gist.github.com/480/3b41f449686a089f34edb45d00672f28)

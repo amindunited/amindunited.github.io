@@ -22,6 +22,8 @@
 
 [My Current ZSH Settings](my-current-zsh-settings) - Created: June 06, 2020
 
+[NPM Registries](npm-registries.md) - Created June 10, 2020
+
 ### [My Personal Research and unfinished Projects](../research)
 
 

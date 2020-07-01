@@ -136,3 +136,22 @@ load-nvmrc() {
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 ```
+
+
+
+## I have also modified /Users/[username]/.oh-my-zsh/themes/agnoster.zsh-theme
+
+It now only shows the last 2 segments of the dir path
+
+```
+
+# Dir: current working directory
+prompt_dir() {
+  # org:
+  # prompt_segment blue $CURRENT_FG '%~'
+
+  # https://medium.com/@shandou/how-to-shorten-zsh-prompt-oh-my-zsh-14185f3e7ab7
+  prompt_segment blue $CURRENT_FG '%2~'
+
+}
+```

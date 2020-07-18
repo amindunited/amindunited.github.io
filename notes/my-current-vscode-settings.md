@@ -1,6 +1,6 @@
 # My Current VS Code Settings
 
-Updated 06 06 2020
+Updated: 18 07 2020
 
 The terminal settings depend on [My iTerm zsh conig](./iterm-with-material-theme)
 
@@ -11,6 +11,7 @@ The terminal settings depend on [My iTerm zsh conig](./iterm-with-material-theme
 {
     "editor.scrollBeyondLastLine": false,
     "workbench.iconTheme": "material-icon-theme",
+    "editor.tabSize": 2,
     "window.zoomLevel": 0,
     "gitlens.advanced.messages": {
         "suppressCommitHasNoPreviousCommitWarning": false,
@@ -25,13 +26,10 @@ The terminal settings depend on [My iTerm zsh conig](./iterm-with-material-theme
         "suppressWelcomeNotice": true
     },
     "gitlens.keymap": "alternate",
-    "editor.tabSize": 2,
     "editor.renderWhitespace": "all",
     "gitlens.historyExplorer.enabled": true,
     "gitlens.views.fileHistory.enabled": true,
     "gitlens.views.lineHistory.enabled": true,
-
-    // I actually Hate these colours, I should change them
     "peacock.favoriteColors": [
         {
             "name": "Angular Red",
@@ -107,6 +105,10 @@ The terminal settings depend on [My iTerm zsh conig](./iterm-with-material-theme
     "terminal.integrated.fontWeight": "normal",
     "terminal.integrated.shell.osx": "/bin/zsh",
     "editor.fontFamily": "RobotoMono Nerd Font",
+    "hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W10sXCJsaWJyYXJpZXNcIjpcImdlbmVyYWxcIixcImN1c3RvbUxpYnJhcmllc1wiOltcIkwuc2NyYXRjaHBhZFwiXSxcInBsdWdpbnNcIjpbXSxcInJlY2VudENvbG9yc1wiOltdLFwiZm9ybWF0V2lkdGhcIjpcIjI0MFwiLFwiY3JlYXRlVGFyZ2V0XCI6ZmFsc2UsXCJwYWdlRm9ybWF0XCI6e1wieFwiOjAsXCJ5XCI6MCxcIndpZHRoXCI6ODI3LFwiaGVpZ2h0XCI6MTE2OX0sXCJzZWFyY2hcIjp0cnVlLFwic2hvd1N0YXJ0U2NyZWVuXCI6dHJ1ZSxcImdyaWRDb2xvclwiOlwiI2QwZDBkMFwiLFwiZGFya0dyaWRDb2xvclwiOlwiIzZlNmU2ZVwiLFwiYXV0b3NhdmVcIjp0cnVlLFwicmVzaXplSW1hZ2VzXCI6bnVsbCxcIm9wZW5Db3VudGVyXCI6MCxcInZlcnNpb25cIjoxOCxcInVuaXRcIjoxLFwiaXNSdWxlck9uXCI6ZmFsc2UsXCJ1aVwiOlwiXCJ9In0=",
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
 }
 ```
 
@@ -122,12 +124,13 @@ EditorConfig.EditorConfig
 eg2.tslint
 eg2.vscode-npm-script
 esbenp.prettier-vscode
-fleshywaffles.vs-code-clippy
 GrapeCity.gc-excelviewer
+hediet.vscode-drawio
 johnpapa.angular-essentials
 johnpapa.Angular2
 johnpapa.vscode-peacock
 johnpapa.winteriscoming
+LucasBadico.code-flowchart
 ms-azuretools.vscode-docker
 ms-vscode.vscode-typescript-tslint-plugin
 msjsdiag.debugger-for-chrome
@@ -137,6 +140,8 @@ nrwl.angular-console
 octref.vetur
 PKief.material-icon-theme
 steoates.autoimport
+toba.vsfire
+vitaliymaz.vscode-svg-previewer
 ```
 
 To install them
@@ -151,12 +156,13 @@ code --install-extension EditorConfig.EditorConfig
 code --install-extension eg2.tslint
 code --install-extension eg2.vscode-npm-script
 code --install-extension esbenp.prettier-vscode
-code --install-extension fleshywaffles.vs-code-clippy
 code --install-extension GrapeCity.gc-excelviewer
+code --install-extension hediet.vscode-drawio
 code --install-extension johnpapa.angular-essentials
 code --install-extension johnpapa.Angular2
 code --install-extension johnpapa.vscode-peacock
 code --install-extension johnpapa.winteriscoming
+code --install-extension LucasBadico.code-flowchart
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-vscode.vscode-typescript-tslint-plugin
 code --install-extension msjsdiag.debugger-for-chrome
@@ -166,6 +172,8 @@ code --install-extension nrwl.angular-console
 code --install-extension octref.vetur
 code --install-extension PKief.material-icon-theme
 code --install-extension steoates.autoimport
+code --install-extension toba.vsfire
+code --install-extension vitaliymaz.vscode-svg-previewer
 ```
 
 

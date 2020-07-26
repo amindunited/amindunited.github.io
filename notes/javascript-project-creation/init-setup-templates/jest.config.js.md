@@ -1,4 +1,5 @@
 ```
+cat > jest.config.js <<EOL
 module.exports = {
   name: 'my-project',
   preset: 'ts-jest',
@@ -12,4 +13,5 @@ module.exports = {
   ],
   testMatch: ['**.test.ts']
 }
+EOL
 ```

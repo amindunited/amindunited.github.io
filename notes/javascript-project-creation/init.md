@@ -11,8 +11,8 @@ Before you start, you will need
 
 ## What a nice project would have
   1. Documentation
-  2. Consistant Code Style
-  3. Good Test Coverage
+  2. Consistent Code Style
+  3. 100% Test Coverage
   4. Stable Releases
 
 ## What we want to do:

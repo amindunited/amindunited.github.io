@@ -1,3 +1,5 @@
+```
+cat > tsconfig.json <<EOL
 {
 "compilerOptions": {
 "module": "commonjs",
@@ -10,3 +12,5 @@
 "lib": ["es2015"],
 "exclude" : ["src/**/*.test.ts"]
 }
+EOL
+```

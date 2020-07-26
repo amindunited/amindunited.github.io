@@ -1,5 +1,11 @@
 # Creating a GitIgnore
 
+
+## Github's Node gitignore
+```
+curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore
+```
+
 ## Basic
 ** Taken from [Github's Node gitignore](#githubs-node-gitignore)
 ```
@@ -122,11 +128,6 @@ dist
 .pnp.*
 
 EOL
-```
-
-## Github's Node gitignore
-```
-curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore
 ```
 
 ## References

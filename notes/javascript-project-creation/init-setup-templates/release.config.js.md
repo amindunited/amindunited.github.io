@@ -1,4 +1,5 @@
 ```
+cat > release.config.js <<EOL
 module.exports = {
   'branches': ['master', 'next'],
   "preset": "angular",
@@ -27,4 +28,5 @@ module.exports = {
     }],
   ]
 };
+EOL
 ```

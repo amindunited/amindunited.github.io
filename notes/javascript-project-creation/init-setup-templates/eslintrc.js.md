@@ -42,6 +42,7 @@ module.exports = {
   rules: {
   },
 };
+EOL
 ```
 
 ## Prettier
@@ -62,6 +63,7 @@ module.exports = {
     sourceType: 'module',
   }
 };
+EOL
 ```
 
 ## Typescript and Prettier
@@ -89,6 +91,7 @@ module.exports = {
   rules: {
   },
 };
+EOL
 ```
 
 ## References

@@ -1,9 +1,12 @@
+/**
+ * Creates './data.json' file with x number of entries
+ */
 const { appendFile, writeFile } = require('fs').promises;
 
 /**
  * CHANGE THIS VALUE TO CREATE MORE RECORDS
  */
-const numberOfRecords = 2000;
+const numberOfRecords = 200000;
 
 let startTime;
 

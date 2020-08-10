@@ -1,3 +1,7 @@
+/**
+ * Uses Node's inbuilt Streams, regex, and arrays to read a large json file and search / filter
+ * - Less performant than './buffered-read.js'
+ */
 // Refs:
 // https://itnext.io/using-node-js-to-read-really-really-large-files-pt-1-d2057fe76b33
 // https://itnext.io/streams-for-the-win-a-performance-comparison-of-nodejs-methods-for-reading-large-datasets-pt-2-bcfa732fa40e
@@ -53,7 +57,7 @@ const lookup = async () => {
         // console.log('buffer state', buffer);
         if (buffer.match(/\n/g)) {
           const remaining = buffer.match(/\n/g);
-          console.log('buffer length', remaining ? remaining.length : 0);
+          // console.log('buffer length', remaining ? remaining.length : 0);
           pump();
         }
       }
@@ -66,7 +70,7 @@ const lookup = async () => {
     // Listen for data
     readStream.on('data', chunk => {
       const remaining = buffer.match(/\n/g);
-      console.log('onchunky, buffersize', remaining ? remaining.length : 0);
+      // console.log('onchunky, buffersize', remaining ? remaining.length : 0);
       buffer += chunk;
       pump();
 
@@ -74,7 +78,7 @@ const lookup = async () => {
 
     // File is done being read
     readStream.on('close', () => {
-      console.log('on close, results = ', results);
+      // console.log('on close, results = ', results);
       resolve(results);
     });
   });

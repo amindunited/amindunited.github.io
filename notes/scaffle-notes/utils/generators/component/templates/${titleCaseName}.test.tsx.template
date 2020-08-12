@@ -1,0 +1,8 @@
+import React from 'react';
+import { render } from '@testing-library/react';
+import { ${titleCaseName} } from './${titleCaseName}';
+
+test('renders ${titleCaseName}', () => {
+  const rendered = render(<${titleCaseName} />);
+  expect(rendered).toMatchSnapshot();
+});

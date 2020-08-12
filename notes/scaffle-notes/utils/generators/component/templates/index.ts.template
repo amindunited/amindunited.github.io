@@ -1,0 +1,3 @@
+import { ${titleCaseName} } from './${titleCaseName}';
+
+export { ${titleCaseName} };

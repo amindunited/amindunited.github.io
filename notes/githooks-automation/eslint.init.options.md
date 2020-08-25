@@ -1,5 +1,11 @@
 # ES Lint Init Options
 
+
+## Table of Contents
+1. [Install](#install)
+2. [Prompts (short)](#prompts-short)
+3. [Prompts (Detailed)](#prompts-detailed)
+
 ## Install
 
 ```BASH
@@ -8,7 +14,8 @@
 npx eslint --init
 ```
 
-## Prompts
+## Prompts (short)
+
 
 1. [ESLint Use](#1-eslint-use)
     - Prompt: ```How would you like to use ESLint?```
@@ -46,7 +53,7 @@ npx eslint --init
     - Prompt: ```Would you like to install them now with npm?```
     - Select: ```Yes```
 
-## Prompt Details
+## Prompts (Detailed)
 
 ### 1. ESLint Use
 

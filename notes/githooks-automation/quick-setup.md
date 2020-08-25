@@ -1,6 +1,6 @@
 # Githooks Quick Setup
 
-This is the quick install guide. To learn more, cherry pick, or to customise the setup follow the [Detailed Guide](./../githooks-project-automation.md).
+This is the quick install guide. To learn more, cherry pick, or to customise the setup follow the [Detailed Guide](./detailed-walkthrough.md).
 
 ## Table of Contents
 1. [Installation](#installation)
@@ -10,15 +10,17 @@ This is the quick install guide. To learn more, cherry pick, or to customise the
 ## Installation
 
 #### What this will Install
-  1. BrowsersList - [Details](#browserslist)
-  2. ESLint - [Details](#eslint)
-  3. Prettier - [Details](#prettier)
-  4. Lint Staged - [Details](#prettier-git-hooks)
-  5. Commit Lint - [Details](#commit-lint)
-  6. Commitizen - [Details](#commitizen)
-  7. Semantic Release - [Details](#semantic-release)
 
-Run this code in the root directory of the application.
+  1. BrowsersList - [Details](./detailed-walkthrough.md#browserslist)
+  2. ESLint - [Details](./detailed-walkthrough.md#eslint)
+  3. Prettier - [Details](./detailed-walkthrough.md#prettier)
+  4. Lint Staged - [Details](./detailed-walkthrough.md#prettier-git-hooks)
+  5. Commit Lint - [Details](./detailed-walkthrough.md#commit-lint)
+  6. Commitizen - [Details](./detailed-walkthrough.md#commitizen)
+  7. Semantic Release - [Details](./detailed-walkthrough.md#semantic-release)
+
+Run the code below in the root directory of the application.
+
 
 ```BASH
 ## BrowsersList
@@ -176,6 +178,11 @@ EOL
 
 ## Clean up
 
+
+### Release.Config.js
+
+  - Remove "@semantic-release/npm", if not this project is not publishing to NPM.
+  
 ### Package.json 
 
   Remove these configs from the Package.json:
@@ -248,7 +255,9 @@ EOL
 
 ## Visual Studio Code
 
-  #### To enable Linting on-save in vscode
+
+#### To enable Linting on-save in vscode
+
 
   Install the [ESLint plugin](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
@@ -266,7 +275,9 @@ EOL
   },
   ```
 
-  #### To enable Prettier on-save in vscode
+
+#### To enable Prettier on-save in vscode
+
 
   Install the [vcode ESLint plugin](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 

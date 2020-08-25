@@ -80,9 +80,6 @@ module.exports = {
   | Semantic Release | Release Chore Automation | [Semantic Release](./githooks-automation/detailed-walkthrough.md#semantic-release) |
 
 
-## @TODO
-
-### Headings don't work
 
 ## Notes
 

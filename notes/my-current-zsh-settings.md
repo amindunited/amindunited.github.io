@@ -11,7 +11,7 @@ File: ```~/.zshrc```
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/Robin/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # For brew, at least
 export PATH=/usr/local/bin:$PATH
@@ -20,7 +20,7 @@ export PATH=/usr/local/bin:$PATH
 # export NVM_DIR="$HOME/.nvm"
 # . "$(brew --prefix nvm)/nvm.sh"
 
-export NVM_DIR="/Users/Robin/.nvm"
+export NVM_DIR="$HOME.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 

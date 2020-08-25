@@ -1,5 +1,6 @@
 # ES Lint Init Options
 
+
 ## Table of Contents
 1. [Install](#install)
 2. [Prompts (short)](#prompts-short)

@@ -10,6 +10,7 @@ This is the quick install guide. To learn more, cherry pick, or to customise the
 ## Installation
 
 #### What this will Install
+
   1. BrowsersList - [Details](./detailed-walkthrough.md#browserslist)
   2. ESLint - [Details](./detailed-walkthrough.md#eslint)
   3. Prettier - [Details](./detailed-walkthrough.md#prettier)
@@ -19,6 +20,7 @@ This is the quick install guide. To learn more, cherry pick, or to customise the
   7. Semantic Release - [Details](./detailed-walkthrough.md#semantic-release)
 
 Run the code below in the root directory of the application.
+
 
 ```BASH
 ## BrowsersList
@@ -269,6 +271,7 @@ EOL
     "source.fixAll.eslint": true,
   },
   ```
+
 
 #### To enable Prettier on-save in vscode
 

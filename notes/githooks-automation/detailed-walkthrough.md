@@ -222,6 +222,7 @@ In order for Semantic Release to work the CI/CD for the project will need Commit
 
   - Remove "@semantic-release/npm", if not this project is not publishing to NPM.
 
+
 ### Package.json 
 
   For each of these config that has been created, remove it from the Package.json:

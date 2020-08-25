@@ -39,7 +39,7 @@ EOL
 ⚠️ If you do not want to publish to NPM __remove__ the line containing ```@semantic-release/npm```.
 
 
-Return to guide [here](./../githooks-project-automation.md#semantic-release)
+Return to guide [here](./detailed-walkthrough.md#semantic-release)
 
 ## References
 More Details [here](./semantic-release.md)

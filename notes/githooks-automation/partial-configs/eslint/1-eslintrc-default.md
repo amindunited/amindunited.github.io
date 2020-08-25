@@ -21,4 +21,5 @@ EOL
 ```
 
 
-Return to guide [here](./../../../githooks-project-automation.md#eslint)
+Return to guide [here](./../../detailed-walkthrough.md#eslint)
+

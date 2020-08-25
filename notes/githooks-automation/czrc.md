@@ -17,7 +17,9 @@ cat > .czrc <<EOL
 EOL
 ```
 
-Return to guide [here](./../githooks-project-automation.md#commitizen)
+
+Return to guide [here](./detailed-walkthrough.md#commitizen)
+
 
 ## References
 

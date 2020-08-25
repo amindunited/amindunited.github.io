@@ -14,4 +14,6 @@ module.exports = {
 EOL
 ```
 
-Return to guide [here](./../githooks-project-automation.md#lint-staged-and-husky)
+
+Return to guide [here](./detailed-walkthrough.md#lint-staged-and-husky)
+

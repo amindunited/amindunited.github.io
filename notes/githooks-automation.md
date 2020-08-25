@@ -80,6 +80,7 @@ module.exports = {
   | Semantic Release | Release Chore Automation | [Semantic Release](./githooks-automation/detailed-walkthrough.md#semantic-release) |
 
 
+
 ## Notes
 
   These instructions recommend creating an individual configuration file for each tool or library. This is because:

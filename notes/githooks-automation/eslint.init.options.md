@@ -16,7 +16,6 @@ npx eslint --init
 
 ## Prompts (short)
 
-
 1. [ESLint Use](#1-eslint-use)
     - Prompt: ```How would you like to use ESLint?```
     - Select: ```To check syntax, find problems, and enforce code style```

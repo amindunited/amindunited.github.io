@@ -23,7 +23,7 @@ node 12
 EOL
 ```
 
-Return to guide [here](./../githooks-project-automation.md#browserslist)
+Return to guide [here](./detailed-walkthrough.md#browserslist)
 
 ## References
 

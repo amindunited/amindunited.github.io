@@ -25,4 +25,5 @@ module.exports = {
 EOL
 ```
 
-Return to guide [here](./../../../githooks-project-automation.md#prettier)
+Return to guide [here](./../../detailed-walkthrough.md#prettier)
+

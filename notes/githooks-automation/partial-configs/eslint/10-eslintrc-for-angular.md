@@ -1,12 +1,14 @@
 ## Angular 10 EsLintrc
 
+This is part of [Githooks Project Automation](./../../../githooks-project-automation.md).
+
 Before writting this, be sure to have installed ```@angular-eslint/schematics``` and ```prettier```.
 
-notes/project-automation/partial-configs/eslint/10-eslintrc-for-angular.md
-notes/project-automation/eslint-in-angular.md
-Follow the guide [here]('../eslint-in-angular.md')
+Follow the guide [here](./../../eslint-in-angular.md)
 
-```
+Run this whole script in the terminal to generate an .estlintrc that is configured for Angular.
+
+```BASH
 cat > .eslintrc.js <<EOL
 module.exports = {
   /**

@@ -2,6 +2,8 @@
 
 Automating tasks with Githooks.
 
+This is a very detailed guide. To get setup quickly use the [Quick Setup Guide](./githooks-automation/quick-setup.md).
+
 ## Table of Contents
 
 1. [What are Git Hooks](#what-are-git-hooks)
@@ -78,7 +80,6 @@ module.exports = {
   | Commit Lint | Git Commit Analysis and Formatting | [Commit Lint](./githooks-automation/detailed-walkthrough.md#commit-lint) |
   | Commitizen | Git Commit Assistant | [Commitizen](./githooks-automation/detailed-walkthrough.md#commitizen) |
   | Semantic Release | Release Chore Automation | [Semantic Release](./githooks-automation/detailed-walkthrough.md#semantic-release) |
-
 
 
 ## Notes

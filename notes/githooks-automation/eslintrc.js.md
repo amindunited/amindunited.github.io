@@ -96,9 +96,7 @@ module.exports = {
 EOL
 ```
 
-
 Return to guide [here](./detailed-walkthrough.md).
-
 
 ## References
 

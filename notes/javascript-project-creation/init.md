@@ -184,8 +184,8 @@ npm install --save-dev @commitlint/{config-conventional,cli}
 ### Commitizen
 
 ```
-npm install commitizen  --save-dev
-npm install cz-conventional-changelog --save-dev
+npm install commitizen -g
+commitizen init cz-conventional-changelog --save-dev --save-exact
 ```
 
 [Add Commitizen Config](./init-setup-templates/czrc.md)

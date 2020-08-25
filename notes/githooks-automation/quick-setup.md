@@ -10,6 +10,7 @@ This is the quick install guide. To learn more, cherry pick, or to customise the
 ## Installation
 
 #### What this will Install
+
   1. BrowsersList - [Details](./detailed-walkthrough.md#browserslist)
   2. ESLint - [Details](./detailed-walkthrough.md#eslint)
   3. Prettier - [Details](./detailed-walkthrough.md#prettier)
@@ -19,6 +20,7 @@ This is the quick install guide. To learn more, cherry pick, or to customise the
   7. Semantic Release - [Details](./detailed-walkthrough.md#semantic-release)
 
 Run the code below in the root directory of the application.
+
 
 ```BASH
 ## BrowsersList
@@ -176,6 +178,7 @@ EOL
 
 ## Clean up
 
+
 ### Release.Config.js
 
   - Remove "@semantic-release/npm", if not this project is not publishing to NPM.
@@ -252,7 +255,9 @@ EOL
 
 ## Visual Studio Code
 
+
 #### To enable Linting on-save in vscode
+
 
   Install the [ESLint plugin](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
@@ -270,7 +275,9 @@ EOL
   },
   ```
 
+
 #### To enable Prettier on-save in vscode
+
 
   Install the [vcode ESLint plugin](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 

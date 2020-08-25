@@ -1,5 +1,6 @@
 # ES Lint Init Options
 
+
 ## Table of Contents
 1. [Install](#install)
 2. [Prompts (short)](#prompts-short)
@@ -14,6 +15,7 @@ npx eslint --init
 ```
 
 ## Prompts (short)
+
 
 1. [ESLint Use](#1-eslint-use)
     - Prompt: ```How would you like to use ESLint?```

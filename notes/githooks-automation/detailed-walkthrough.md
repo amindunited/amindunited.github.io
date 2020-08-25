@@ -1,8 +1,10 @@
 # Githooks Project Automation
 
+
 Detailed walk through.
 
 This is a very detailed guide. To get setup quickly use the [Quick Setup Guide](./quick-setup.md).
+
 
 ## Table of Contents
   1. [Goals](#goals)
@@ -217,10 +219,10 @@ In order for Semantic Release to work the CI/CD for the project will need Commit
 
 ## Clean up
 
-
 ### Release.Config.js
 
   - Remove "@semantic-release/npm", if not this project is not publishing to NPM.
+
 
 ### Package.json 
 

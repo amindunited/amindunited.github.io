@@ -1,5 +1,7 @@
 # Creating an Es Lint Config
 
+This is part of [Githooks Project Automation](./../githooks-project-automation.md).
+
 ## Basic
 
 ** This (or similar) will be created by running:  ```npx eslint --init```
@@ -93,6 +95,8 @@ module.exports = {
 };
 EOL
 ```
+
+Return to guide [here](./detailed-walkthrough.md).
 
 ## References
 

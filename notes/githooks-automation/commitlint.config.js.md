@@ -1,5 +1,6 @@
 # Create a Commit Lint Config
 
+This is part of [Githooks Project Automation](./../githooks-project-automation.md).
 
 ## Basic
 ```
@@ -41,6 +42,9 @@ module.exports = {
 };
 EOL
 ```
+
+Return to guide [here](./detailed-walkthrough.md#commit-lint)
+
 
 ## Refences
 

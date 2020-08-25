@@ -1,5 +1,9 @@
 ## EsLintrc with Typescript and Prettier
 
+This is part of [Githooks Project Automation](./../../../githooks-project-automation.md).
+
+Run this script in your console to generate an eslintrc that is configured to use prettier, and typscript.
+
 ```
 cat > .eslintrc.js <<EOL
 module.exports = {
@@ -26,3 +30,5 @@ module.exports = {
 };
 EOL
 ```
+
+Return to guide [here](./../../detailed-walkthrough.md#prettier)

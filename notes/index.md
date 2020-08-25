@@ -14,7 +14,7 @@
 
 [Creating a Static Render Webpack Plugin](creating-a-static-render-webpack-plugin) - Created: September 06, 2019
 
-[Setup Developers Mac](setup-developers-mac) - Created: Jan 15, 2020
+** See: Developer System Setup Below** [Setup Developers Mac](setup-developers-mac) - Created: Jan 15, 2020
 
 [Code Reviews at Google](code-review-at-google) - Created: May 20, 2020
 
@@ -25,6 +25,10 @@
 [NPM Registries](npm-registries.md) - Created June 10, 2020
 
 [Working Without Arrow Keys](working-without-arrow-keys.md) - Created July 03, 2020
+
+[Developer System Setup](developer-system-setup/index.md) - Created August 21, 2020
+
+[Git Hooks Automation](githooks-automation.md) - Created August 25, 2020
 
 ### [My Personal Research and unfinished Projects](../research)
 

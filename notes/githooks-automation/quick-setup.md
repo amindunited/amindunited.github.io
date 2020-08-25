@@ -178,7 +178,6 @@ EOL
 
 ## Clean up
 
-
 ### Release.Config.js
 
   - Remove "@semantic-release/npm", if not this project is not publishing to NPM.
@@ -255,9 +254,7 @@ EOL
 
 ## Visual Studio Code
 
-
 #### To enable Linting on-save in vscode
-
 
   Install the [ESLint plugin](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
@@ -277,7 +274,6 @@ EOL
 
 
 #### To enable Prettier on-save in vscode
-
 
   Install the [vcode ESLint plugin](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 

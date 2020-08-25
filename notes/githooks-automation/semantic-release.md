@@ -93,7 +93,6 @@ As documented [here](./release.config.js.md), and remove any features or plugins
 
 ## Clean up
 
-
 ### Release.Config.js
 
   - Remove "@semantic-release/npm", if not this project is not publishing to NPM.

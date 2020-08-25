@@ -1,10 +1,8 @@
 # Githooks Project Automation
 
-
-Detailed walk through.
+__Detailed walk through__
 
 This is a very detailed guide. To get setup quickly use the [Quick Setup Guide](./quick-setup.md).
-
 
 ## Table of Contents
   1. [Goals](#goals)
@@ -218,6 +216,7 @@ In order for Semantic Release to work the CI/CD for the project will need Commit
 
 
 ## Clean up
+
 
 ### Release.Config.js
 

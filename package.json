@@ -4,9 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "build": "node build.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "old_start": "node server.js",
+    "old_build": "node build.js",
+    "start": "webpack-dev-server --env.NODE_ENV=development --config ./config/webpack.config.js",
+    "build": "webpack --env.NODE_ENV=production --config ./config/webpack.config.js",
+    "test": "jest",
+    "create": "node ./utils/create",
+    "cc": "node ./utils/create Component"
   },
   "repository": {
     "type": "git",

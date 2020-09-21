@@ -2,7 +2,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 // Images smaller than this will be inlined into the code
 const imageInlineSizeLimit = parseInt(
-  process.env.IMAGE_INLINE_SIZE_LIMIT || '10000' // bytes
+  process.env.IMAGE_INLINE_SIZE_LIMIT || '10000'
 );
 
 const getAssetConfig = (options) => {
@@ -13,7 +13,7 @@ const getAssetConfig = (options) => {
       test: [/\.bmp$/, /\.gif$/, /\.jpe?g$/, /\.png$/],
       loader: require.resolve('url-loader'),
       options: {
-        limit: imageInlineSizeLimit,// options.assets.inlineImagesSmallerThan || imageInlineSizeLimit,
+        limit: options.assets.inlineImagesSmallerThan || imageInlineSizeLimit,
         name: `${outDir}/images/[name].[hash:8].[ext]`,
       },
     },

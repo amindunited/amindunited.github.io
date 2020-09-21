@@ -8,9 +8,6 @@ const getScriptsConfig = (options) => {
   const scriptRules = [{
     test: /\.(ts|tsx)?$/,
     loader: 'ts-loader',
-    options: {
-      configFile: options.tsconfig || 'tsconfig.json'
-    },
     include: path.resolve(process.cwd()),
     exclude: [ /node_modules/, /utils/ ]
   },

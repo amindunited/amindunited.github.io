@@ -18,7 +18,7 @@ const cssRegex = /\.css$/;
  * Use functions to create some reusable configs
  */
 const getStylesConfig = (options) => {
-  console.log('in get styles config : options:', options);
+
   const isDev = options.envVariables.NODE_ENV === 'development';
 
   const sassConfig = () => {
@@ -89,7 +89,7 @@ const getStylesConfig = (options) => {
           { loader: 'css-loader' },
           sassConfig(),
           postCssConfig()
-        ].filter(Boolean)
+        ]
       },
       {
         test: cssModuleRegex,
@@ -103,7 +103,7 @@ const getStylesConfig = (options) => {
             }
           },
           postCssConfig()
-        ].filter(Boolean)
+        ]
       },
       {
         test: sassStringRegex,

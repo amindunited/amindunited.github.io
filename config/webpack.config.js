@@ -21,26 +21,50 @@ const getServiceWorkerConfig = require('./webpack/service-worker.config');
 const getBundleAnalyzerConfig = require('./webpack/bundle-analyser.config');
 const getOptimisationsConfig = require('./webpack/optimisation.config');
 
-// @todo The webpack options are not used yet
-// Options
-const webpackOptions = () => ({
-  styles: {
-    loaders: {
-      css: true, // (always)
-      cssModules: true, // Regex or Bool ?
-      cssStrings: false,
-      scss: true,
-      scssModules: true,
-      scssStrings: false
+// This is how we'd like to set up webpack
+// In order to do this, webpack will need to pass a config around to each config script:
+// getAssets(config), getEnv(config), ....
+// Wishlist:
+const wishlistConfig = () => {
+  return [{
+    "envVariables": {
+      "publicPath": '', // ??
     },
-    plugins: {
-      treat: true
-    }
-  },
-  scripts: {
+    "jsConfig": {
+      "preact": true
+    },
+    "js": [{
+      name: 'app',
+      src: './src/index.tsx',
+    }],
+    "html": {
+      src: ''
+    },
+    "output": {
+      path: '',
+      publicPath: ''
+    },
+    "server": {
+      "port": '8080',
+      "content": 'dist'
+    },
+    "manifest": {
 
-  }
-});
+    }, // Config or false
+    "serviceWorker": {
+      // needs the navigate fallback (the html container, not the offline html)
+      // Will likely be the [URL] + [HTML file]
+      navigateFallback: ''
+    }, // Config or false
+    "assets": {
+      'inlineImages': false, // false or size
+      'copy': [{
+        'from': './public',
+        'to': './'
+      }]
+    }
+  }];
+};
 
 
 // Images smaller than this will be inlined into the code

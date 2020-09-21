@@ -2,15 +2,9 @@
  * Configure plugins and rules for scripts (js/ts...)
  */
 const path = require('path');
-
-const getScriptsConfig = (options) => {
-
-  const scriptRules = [{
+const scriptRules = [{
     test: /\.(ts|tsx)?$/,
     loader: 'ts-loader',
-    options: {
-      configFile: options.tsconfig || 'tsconfig.json'
-    },
     include: path.resolve(process.cwd()),
     exclude: [ /node_modules/, /utils/ ]
   },
@@ -33,12 +27,11 @@ const getScriptsConfig = (options) => {
       test: /\.(ts|js)x$/
     },
     use: ['babel-loader', '@svgr/webpack', 'url-loader']
-  }];
-
-  return {
-    rules: scriptRules,
-    plugins: []
   }
-};
+];
+
+const getScriptsConfig = () => ({
+  rules: scriptRules
+});
 
 module.exports = getScriptsConfig;

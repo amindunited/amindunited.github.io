@@ -206,6 +206,16 @@ One line install
 ```
 brew install git
 ```
+
+  ### Git LFS
+  
+  Some repos use git LFS (Large File Storage) to help manage the repo size when dealing with Big files like images.
+  
+  ```brew install git-lfs```
+
+  ```git install lfs```
+  
+  
   ### Git Tools
 
   - GUIs

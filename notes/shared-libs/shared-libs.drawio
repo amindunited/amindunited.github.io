@@ -1,0 +1,97 @@
+<mxfile host="65bd71144e" modified="2020-10-27T02:07:53.064Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.50.1 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36" version="13.6.5" etag="3mz3boZ4jXaCN5N7_kNF">
+    <diagram id="OqZjPaX-mT9cDy1g0FAd" name="Page-1">
+        <mxGraphModel dx="1574" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="2" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="40" width="760" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;h2&gt;@Austpost/AP-Libs (Mono Repo)&lt;/h2&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="255" y="50" width="317.5" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="AP-Style-Vars" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="130" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="AP-SASS-Libs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="130" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="AP-JSS-Config" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="130" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="AP-Components" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="130" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="AP-Services" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="130" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="AP-Utils" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="130" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="20" y="280" width="350" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="20">
+                    <mxGeometry width="350" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;h2&gt;&lt;font color=&quot;#3399ff&quot;&gt;@Payments/(Mono Repo)&lt;/font&gt;&lt;/h2&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="20">
+                    <mxGeometry x="55" y="20" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="AP-Style-Vars" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="20">
+                    <mxGeometry x="15" y="120" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="AP-JSS-Config" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="20">
+                    <mxGeometry x="15" y="200" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Payments-Serve" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3399FF;" vertex="1" parent="20">
+                    <mxGeometry x="235" y="120" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="AP-Utils" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="20">
+                    <mxGeometry x="125" y="200" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="AP-Services" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="20">
+                    <mxGeometry x="125" y="120" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Payments-Rollup" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3399FF;" vertex="1" parent="20">
+                    <mxGeometry x="235" y="200" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="450" y="280" width="350" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="21">
+                    <mxGeometry width="350" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&lt;h2&gt;&lt;font color=&quot;#00cc00&quot;&gt;@mypost-biz/(Mono Repo)&lt;/font&gt;&lt;/h2&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="21">
+                    <mxGeometry x="55" y="20" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="AP-Style-Vars" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="21">
+                    <mxGeometry x="15" y="120" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="AP-JSS-Config" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="21">
+                    <mxGeometry x="15" y="200" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="biz-Serve" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00CC00;" vertex="1" parent="21">
+                    <mxGeometry x="235" y="120" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="AP-Utils" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="21">
+                    <mxGeometry x="125" y="200" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="AP-Services" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="21">
+                    <mxGeometry x="125" y="120" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="biz-webpack" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00CC00;" vertex="1" parent="21">
+                    <mxGeometry x="235" y="200" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;startArrow=classic;startFill=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="22">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="670" y="220" as="sourcePoint"/>
+                        <mxPoint x="620" y="300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

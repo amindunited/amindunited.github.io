@@ -192,7 +192,7 @@ commitizen init cz-conventional-changelog --save-dev --save-exact
 
 [Add commitizen to the husky config](./init-setup-templates/husky.config.js.md)
 
-## semantic-release
+### semantic-release
 
 [See: semantic-release Docs](https://github.com/semantic-release/semantic-release)
 

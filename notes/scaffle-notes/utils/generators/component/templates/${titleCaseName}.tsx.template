@@ -1,0 +1,26 @@
+import React, { FunctionComponent } from 'react';
+import * as styles from './${titleCaseName}.module.scss';
+
+/**
+ * Example types
+ */
+type PropTypes = {
+  title?: string; // @todo - Remove this example if unused
+  paragraph?: string; // @todo - Remove this example if unused
+  children?: React.ReactNode; // @todo - Remove this example if unused
+} & React.HTMLAttributes<HTMLDivElement>;
+
+/**
+ * ${titleCaseName}
+ * Renders a ${camelCase} element
+ */
+const ${titleCaseName}: FunctionComponent<PropTypes> = ({ children, ...props }) => {
+  return (
+    <div className={styles.${titleCaseName}} {...props}>
+      ${titleCaseName} Works
+      {children}
+    </div>
+  );
+};
+
+export { ${titleCaseName} };

@@ -2,7 +2,11 @@
 
 Automating tasks with Githooks.
 
-This is a very detailed guide. To get setup quickly use the [Quick Setup Guide](./githooks-automation/quick-setup.md).
+This is a detailed guide.
+
+To get setup quickly use the [Quick Setup Guide](./githooks-automation/quick-setup.md).
+
+or to dig deeper use the [Detailed Walkthrough](./githooks-automation/detailed-walkthrough.md).
 
 ## Table of Contents
 

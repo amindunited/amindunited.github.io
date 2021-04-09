@@ -356,7 +356,7 @@ These are a great way to automate the mundane tasks of checking out code, instal
 
 In order to publish a javascript module, you will need an NPM account.
 
-[NPM signup(https://www.npmjs.com/signup)
+[NPM signup](https://www.npmjs.com/signup)
 
 ## Hosting
 

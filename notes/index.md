@@ -26,11 +26,17 @@
 
 [Working Without Arrow Keys](working-without-arrow-keys.md) - Created July 03, 2020
 
+🚧 &nbsp;[Guidelines for Javascript Project Creation](./javascript-project-creation/init.md) - Started August 11, 2020 &nbsp; 🚧 &nbsp;
+
 [Developer System Setup](developer-system-setup/index.md) - Created August 21, 2020
 
 [Git Hooks Automation](githooks-automation.md) - Created August 25, 2020
 
+[macOs - Ruby](./mac-os-ruby.md) - Created August 26, 2020
+
 [Creating PDFs From Markdown](./creating-pdfs-from-markdown.md) - Created September 2, 2020
+
+🚧 &nbsp;[Documentation Guidelines for Javascript Projects](./documentation-for-javascript-projects) - Started October 29, 2020 &nbsp; 🚧 &nbsp;
 
 ### [My Personal Research and unfinished Projects](../research)
 

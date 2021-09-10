@@ -75,7 +75,7 @@ module.exports = {
 
   or select a feature from the table below.
 
-  | Lib  | Feature | Install|
+  | Lib  | Feature | Install|        |
   |:---- |:------- |:-------|:------:|
   | BowsersList | Share Browser Config between tools, Libraries | [BrowsersList](./githooks-automation/detailed-walkthrough.md#browserslist) |
   | ESLint | Code analysis | [ESLint](./githooks-automation/detailed-walkthrough.md#eslint) |

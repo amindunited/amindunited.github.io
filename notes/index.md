@@ -40,6 +40,8 @@
 
 🚧 &nbsp;[Testing React Apollo](./testing-react-apollo) - Started May 18, 2021 &nbsp; 🚧 &nbsp;
 
+[Setting up Monorepo Publishing](./setting-up-node-monorepo-publishing.md)
+
 ### [My Personal Research and unfinished Projects](../research)
 
 

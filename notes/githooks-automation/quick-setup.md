@@ -24,6 +24,7 @@ Run the code below in the root directory of the application.
 
 ```BASH
 ## BrowsersList
+
 echo "Configuring Browsers List"
 
 cat > .browserslistrc <<EOL
@@ -92,7 +93,7 @@ echo {}> .prettierrc.json
 
 echo "Installing Lint-Staged"
 
-npx mrm lint-staged
+npx mrm@2 lint-staged
 
 echo "Configuring Lint-Staged"
 

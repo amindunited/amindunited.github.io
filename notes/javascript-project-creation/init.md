@@ -162,7 +162,7 @@ echo {}> .prettierrc.json
 
 ```
 # lint-staged (via mrm which syncs up configs) This will also install husky.
-npx mrm lint-staged
+npx mrm@2 lint-staged
 ```
 
 [create lint-staged.config.js](./init-setup-templates/lint-staged.config.js.md)

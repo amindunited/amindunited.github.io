@@ -160,7 +160,7 @@ The is no installation required, Any library that uses it will install it. Simpl
 ```BASH
 # lint-staged (via mrm which syncs up configs)
 # This will also install husky. 🐕
-npx mrm lint-staged
+npx mrm@2 lint-staged
 ```
 
 Set up a [lint-staged.config.js](./lint-staged.config.js.md)

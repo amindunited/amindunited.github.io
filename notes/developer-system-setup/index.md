@@ -1,38 +1,9 @@
 # Developer System Setup
 
-## Propsed Changes:
-  1. Browsers
-  2. xcode
-      - Mobile Emulators
-  4. Global Package Manager (homebrew)
-  5. Python
-  6. Ruby
-  7. ?JVM? - brew install jenv - [medium](https://medium.com/@chamikakasun/how-to-manage-multiple-java-version-in-macos-e5421345f6d0)
-      -  brew install kotlin
-      - do we need kotlin native?
-  9. Additional Languages
-      - GoLang ```brew install golang```
-      - Dart ```brew tap dart-lang/dart``` && ```brew install dart```
-      - [php](https://getgrav.org/blog/macos-catalina-apache-multiple-php-versions)
-      - [mySQL]()
-      - [mariaDB]()
-      - Other DBs?
-  8. Node
-      - NVM
-  9. Git
-
-  8. Terminal
-      - Customise terminal
-  9. vscode
-      - Customise vscode
-  10. [IntelliJ IDEA](https://www.jetbrains.com/idea/) (if you have a licence)
-  10. SSH
-
-
 ## Table of Contents
 
 1. [Browsers](#browsers)
-2. [Mobile Emulators](#mobile-emulators)
+2. [Xcode Developer Tools](#xcode-developer-tools)
 3. [Global Package Manger](#global-package-manger)
 4. [Python](#python)
 5. [Terminal](#terminal)
@@ -47,23 +18,21 @@
 
 ## Browsers
 
-You'll need a web browser to...use the web. Get Both.
+You'll need a web browser to...use the web. Get Both, and maybe Edge too.
 
-- [Google Chrome](https://www.google.com/chrome/)
-- [Firefox](https://www.mozilla.org/en-GB/firefox/new/)
+a. [Google Chrome](https://www.google.com/chrome/)
 
-## Mobile Emulators
+b. [Firefox](https://www.mozilla.org/en-GB/firefox/new/)
 
-1. Xcode (developer tools) from the app store
+c. [Edge](https://www.microsoft.com/en-us/edge)
 
-  then the command-line tools (this takes a long time):
-  ```
-  xcode-select --install
-  ```
+  
+  
+## Xcode Developer Tools
 
-    Once Xcode is installed a link to the Ios simulator can be created by launching xcode:
-      - Selecting 'xcode' menu -> 'Open Developer Tool' -> 'simulator'.
-      - Once the simulator is open, drag its icon from the Launcher into the 'Applications' directory
+Apples Xcode will install many useful utilities from a single easy command.
+
+Learn more and Install [Xcode](./detailed/xcode.md)
 
 ## Global Package Manger
 
@@ -71,36 +40,11 @@ A Global Package Manager will allow you to install libraries and tools that did 
 
 Even when writting a Javascript project there will come a need for a Ruby, or Python Library, and you'll need a package Manager to help with that.
 
-* Operating System Specific Notes:
-
-  If you are on Linux, you already have one, but you can stil install homebrew.
-
-  If you are on OS X, you need Homebrew
-
-  If you are using Windows; Stop. Use Linux or OSX.
-
-
-One line install:
-```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-```
-
-Make sure homebrew is up to date
-```
-brew update
-```
-
-Check the health of your homebrew install
-```
-brew doctor
-```
-
-[Homebrew Website](https://brew.sh/)
-
+Learn more and Install [Homebrew](./detailed/package-managers.md)
 
 ## Python
 
-OS X ships with Python, so you can likely skip this step, but you may endup coming back if there is an issue installing something with pip.
+OS X ships with Python, so you can likely skip this step, but you may end up coming back if there is an issue installing something with pip.
 
 ```
 # Install cmake to do builds
@@ -115,41 +59,7 @@ sudo easy_install pip
 
 The Terminal (or console to some) is an invaluable tool for modifying files, folders, system code, configurations, and running tasks.
 
-There are a lot of tools for the terminal that will greatly ease and speed up you development.
-
-If it seems daunting at first, don't worry. You can mostly get away with copying and pasting until you are comfortable.
-
-Taking time to customise the terminal's shell, Plugins, Themes and colours is a great way to demystify it. It may not seem important to theme your terminal, but it will greatly empower you, as it helps you discover plugins and features.
-
-- OS X
-  - Install Command Line Developer Tools
-  - Install [iTerm2](https://www.iterm2.com/)
-  - Install [ZSH](./zsh/install-zsh.md), if you are using OS X Catalina or higher you likely already have it.
-  - Install and customise [Oh-My-Zsh](./zsh/customising-zsh#install-oh-my-zsh)
-
-- Linux
-
-  - Install zsh (subsitute yum, or zypper as your system requires)
-
-  ```
-  sudo apt update
-  sudo apt upgrade
-  sudo apt install zsh
-  ```
-
-  - Set zsh as the default/login shell
-    - List the available shells
-    ```
-    cat /etc/shells
-    ```
-    - Use chsh to change shells (using one of the paths listed from cat)
-    ```
-    chsh -s /usr/bin/zsh
-    ```
-- Windows
-
-  ** Use Linux
-
+Learn more and Install a [terminal](./detailed/terminal.md)
 
 ## Code Editor
 
@@ -231,112 +141,18 @@ Git is a distributed version-control system for tracking changes in source code 
 
 Git is the de facto tool for tracking changes, hosting and sharing code. It will save you when you break you code, or need to find out what it was that you, or someone else did to the code.
 
-One line install
-```
-brew install git
-```
-
-  ### Git LFS
-  
-  Some repos use git LFS (Large File Storage) to help manage the repo size when dealing with Big files like images.
-  
-  ```brew install git-lfs```
-
-  ```git install lfs```
-  
-  
-  ### Git Tools
-
-  - GUIs
-
-    - [Sourcetree](https://www.sourcetreeapp.com/)
-    - [Github Desktop](https://desktop.github.com/)
+Learn more and install git [here](./detailed/dcvs-git.md)
 
 ### SSH Keys
 
 ssh keys (Secure SHell) are a way to secure, or authenticate your account for remote login.
 
-You will use ssh keys to securely login, create, or modify code, account settings, and more using external sites and service providers.
+Learn more and Setup SSH Keys [here](./detailed/ssh-keys.md)
+## Code Hosting
 
-Go to your .ssh Directory
-```
-cd ~/.ssh
-```
+You'll likely want to store, and maybe even, share your code.
 
-Check for existing keys, there should be 'id_rsa' (your private key) and 'id_rsa.pub' (your public key)
-```
-ls -al .
-```
-
-If they are not there, create them
-```
-ssh-keygen -t rsa -C "your_email@example.com"
-```
-
-Follow the prompts
-
-Just press [enter]
-```
-Enter file in which to save the key (~/.ssh/id_rsa):
-```
-
-```
-Enter passphrase (empty for no passphrase):
-```
-
-```
-Your identification has been saved in ~/.ssh/id_rsa.
-Your public key has been saved in ~/.ssh/id_rsa.pub.
-The key fingerprint is:
-**:**:**:**:**:**:**:**:**:**:**:**:**:**:**:** example@e
-The key's randomart image is:
-+--[ RSA 2048]----+
-|  .oo.           |
-|         p       |
-|          dd     |
-|     . = = .     |
-|      - t - .    |
-|     -+-+-+-+    |
-|     ¯\_(ツ)_/¯  |
-|                 |
-|                 |
-+-----------------+
-```
-
-
-#### Using SSH key
-
-
-Open your public key file ```id_rsa.pub```
-
-```
-code ./id_rsa.pub
-```
-
-copy the entire file contents and paste it into the input field of the site's ssh key
-
-![Paste SSH key](./assets/images/ssh-key-paste.png)
-
-## Git Hosting account
-
-Now that we have git, we'll want somewhere to store the code. Especially if we want to share it.
-
-Just sign up for a free account with any of these providers (but really, use [Github](https://github.com/)):
-
-1. [Github](https://github.com/)
-2. [Gitlab](https://about.gitlab.com/)
-3. [Bitbucket](https://bitbucket.org/)
-
-It is also possible that you work for a company that hosts thier own git instance. Just follow thier directions to setup.
-
-#### You will also want to set up ssh keys for that account
-
-  Make sure that you have a [public ssh key](#ssh-keys)
-
-  - [Github ssh](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh) && [Generating an ssh Key](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-  - [Gitlab ssh](https://dev.to/sndrx/how-to-set-up-an-ssh-key-and-use-it-in-gitlab--42p1)
-  - [Bitbucket ssh](https://confluence.atlassian.com/bitbucketserver/ssh-user-keys-for-personal-use-776639793.html)
-
+Learn more and get set up with a provider [here](./detailed/code-hosting.md)
 ## CI/CD Account
 
 Continuous Integration and Continuous Delivery platforms provide tools for updating, testing, publishing and releasing code.

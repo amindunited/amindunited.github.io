@@ -60,7 +60,7 @@
     "fast-async": "^6.3.8",
     "file-loader": "^6.0.0",
     "firebase": "^7.19.1",
-    "firebase-tools": "^8.9.2",
+    "firebase-tools": "^13.10.1",
     "html-webpack-plugin": "^4.3.0",
     "interpolate-html-plugin": "^3.0.0",
     "jest": "^26.4.2",

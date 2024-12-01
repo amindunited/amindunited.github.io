@@ -59,7 +59,7 @@
     "dotenv-webpack": "^2.0.0",
     "fast-async": "^6.3.8",
     "file-loader": "^6.0.0",
-    "firebase": "^7.19.1",
+    "firebase": "^10.9.0",
     "firebase-tools": "^13.6.0",
     "html-webpack-plugin": "^4.3.0",
     "interpolate-html-plugin": "^3.0.0",
